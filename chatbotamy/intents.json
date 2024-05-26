@@ -1,0 +1,1993 @@
+{
+  "intents": [
+    {
+      "tag": "merhaba",
+      "patterns": ["merhaba", "selam", "slm", "selllam", "nasılsın"],
+      "responses": [
+        "Merhaba, size nasıl yardımcı olabilirim?",
+        "Selam! Size nasıl yardımcı olabilirim?",
+        "Merhabalar! Yardımcı olabileceğim bir şey var mı?",
+        "Hey, size nasıl yardımcı olabilirim?"
+      ]
+    },
+    {
+      "tag": "teşekkür",
+      "patterns": ["teşekkürler", "sağ ol", "teşekkür ederim","eyw","thanks"],
+      "responses": [
+        "Rica ederim, her zaman buradayım!",
+        "Size yardımcı olabildiysem ne mutlu bana!",
+        "Bir şey değil, başka bir sorunuz olursa sormaktan çekinmeyin."
+      ]
+    },
+    {
+      "tag": "yardım",
+      "patterns": ["yardım", "destek", "yardım et"],
+      "responses": [
+        "Nasıl yardımcı olabilirim? Hangi konuda yardıma ihtiyacınız var?",
+        "Tabii ki, size yardımcı olmak için buradayım. Ne hakkında bilgi istersiniz?",
+        "Yardıma mı ihtiyacınız var? Lütfen konuyla ilgili sorunuzu sorun, size yardımcı olmaktan mutluluk duyarım."
+      ]
+    },
+    {
+      "tag": "bilgi",
+      "patterns": ["bilgi", "bilgi almak", "bilgi ver"],
+      "responses": [
+        "Tabii ki, hangi konuda bilgi almak istersiniz?",
+        "Bilgi vermekten memnuniyet duyarım. Hangi konuda bilgi almak istiyorsunuz?",
+        "Elbette, ne hakkında bilgi almak istersiniz?"
+      ]
+    },
+    {
+      "tag": "özür",
+      "patterns": ["özür", "üzgünüm", "afedersin"],
+      "responses": [
+        "Özür dilerim, nasıl yardımcı olabilirim?",
+        "Üzgünüm, bir sorun mu yaşadınız? Yardımcı olabileceğim bir şey var mı?",
+        "Özür dilerim, ne hakkında konuşmak istersiniz?"
+      ]
+    },
+    {
+      "tag": "görüşürüz",
+      "patterns": ["görüşürüz", "hoşça kal", "bye", "baybay"],
+      "responses": [
+        "Görüşürüz, başka bir sorunuz varsa buradayım!",
+        "Hoşça kalın! Başka bir zamanda görüşmek üzere.",
+        "Bye! Başka bir sorunuz olursa sormaktan çekinmeyin.",
+        "Baybay! Size yardımcı olabileceğim başka bir konu var mı?"
+      ]
+    },
+
+    {
+      "tag": "roman",
+      "patterns": ["roman öner", "roman tavsiye", "romanlar", "roman kitap","roman türünden kitap","Roman"],
+      "responses": [
+        "Kesinlikle! Size muhteşem romanlar önerebilirim: [Anna Karenina], [Yüzüklerin Efendisi], [Uğultulu Tepeler]. Bu eserler, insan doğası, macera ve aşk üzerine eşsiz bir bakış sunarlar.",
+        "Emin olun, size büyüleyici romanlar önerebilirim: [Bin Muhteşem Güneş], [Ulysses], [Kafka'ya Dönüşmek]. Bu kitaplar, sıra dışı kurguları ve derin anlamlarıyla sizi etkileyecek.",
+        "Tabii ki! İşte size harika roman önerileri: [Yüzyıllık Yalnızlık], [Karamazov Kardeşler], [Olağanüstü Bir Gün]. Bu romanlar, insan psikolojisi ve toplumsal ilişkiler üzerine derinlemesine düşündürecek."
+      ]
+    },
+    {
+      "tag": "klasik-edebiyat",
+      "patterns": ["klasik edebiyat önerisi", "klasik edebiyat tavsiyesi", "klasik edebiyat eserleri","Klasik Edebiyat","klasik edebiyat"],
+      "responses": [
+        "Kesinlikle! Klasik edebiyat dünyasından şu eserleri öneririm: [Görsel Şiirler], [Don Kişot], [Madame Bovary]. Bu eserler, insanlığın evrensel temalarını ustalıkla işler.",
+        "Emin olun, size büyüleyici klasik eserler önerebilirim: [Faust], [Sefiller], [Karamazov Kardeşler]. Bu kitaplar, derinlikli karakterler ve çağlar boyu geçerli olan felsefi sorular sunarlar.",
+        "Tabii ki! İşte size harika klasik edebiyat önerileri: [Macbeth], [Büyük Gatsby], [Cervantes'in Yel Değirmeni]. Bu eserler, edebiyat tarihinde iz bırakmış önemli yapıtlardır."
+      ]
+    },
+    {
+      "tag": "bilim-kurgu",
+      "patterns": ["bilim kurgu önerisi", "bilim kurgu tavsiyesi", "bilim kurgu kitapları","bilim kurgu","Bilim Kurgu kitap"],
+      "responses": [
+        "Elbette! Bilim kurgu sevenler için şu kitapları öneririm: [Yıldız Gemisi Askerleri], [Dune], [Zaman Makinesi]. Bu eserler, sizi farklı galaksilere götürecek ve hayal gücünüzü genişletecek.",
+        "Kesinlikle! İşte size harika bilim kurgu romanları: [Yaban Diyarlarda Yabancı], [Robotlar ve İmparatorluk], [Hyperion]. Bu kitaplar, geleceği ve teknolojinin insanlık üzerindeki etkilerini derinlemesine ele alır.",
+        "Tabii ki! İşte size benzersiz bilim kurgu önerileri: [Yıldızların Sonundaki Yolculuk], [Sonsuzluğun Sonu], [Ben, Robot]. Bu eserler, bilim ve felsefeyle dolu heyecan verici bir yolculuğa çıkaracak."
+      ]
+    },
+    {
+      "tag": "korku",
+      "patterns": ["korku kitabı önerisi", "korku romanı tavsiyesi", "korku edebiyatı","korku","korku tavsiye kitap"],
+      "responses": [
+        "Elbette! Korku sevenler için şu kitapları öneririm: [Dracula], [Sessizliğin Müziği], [Hayalet Gemi]. Bu eserler, sizi karanlık ve gizemli dünyalara götürecek.",
+        "Kesinlikle! İşte size gerilim dolu korku romanları: [Salem's Lot], [Cadılar], [Görünmez Adam]. Bu kitaplar, sizi korku ve dehşetin içine çekecek.",
+        "Tabii ki! İşte size nefes kesici korku önerileri: [Evil Under the Sun], [Doktor Jekyll ve Bay Hyde], [Gece Nöbeti]. Bu eserler, sizi koltuğunuza kilitlerken gerilim dozunu artırır."
+      ]
+    },
+    {
+      "tag": "polisiye-gizem",
+      "patterns": ["polisiye gizem kitabı önerisi", "polisiye roman tavsiyesi", "gizemli kitaplar","polisiye kitap","Polisiye"],
+      "responses": [
+        "Elbette! Polisiye ve gizem severler için şu kitapları öneririm: [Sherlock Holmes: Bir Kütüphane Kayboluyor], [Agatha Christie: Cinayetler Kulübü], [Raymond Chandler: Büyük Uyku]. Bu eserler, sizi heyecan dolu bir dedektiflik macerasına sürükleyecek.",
+        "Kesinlikle! İşte size gerilim dolu polisiye romanları: [Gone Girl], [The Girl with the Dragon Tattoo], [The Silence of the Lambs]. Bu kitaplar, sizi çözülmesi gereken gizemlerle dolu bir yolculuğa çıkaracak.",
+        "Tabii ki! İşte size akıl almaz polisiye ve gizem önerileri: [Robert Galbraith: İpeksi], [Harlan Coben: Kaçak], [Tana French: İçimdeki Karanlık]. Bu eserler, sizi gerilim ve şaşırtıcı dönemeçlerle dolu bir yolculuğa çıkaracak."
+      ]
+    },
+    {
+      "tag": "fantastik",
+      "patterns": ["fantastik kitap önerisi", "fantastik roman tavsiyesi", "fantastik edebiyat","Fantastik","fantastik kitap"],
+      "responses": [
+        "Gizemli ve büyülü dünyalara hoş geldiniz! Fantastik severler için şu kitapları öneririm: [Yüzüklerin Efendisi], [Harry Potter Serisi], [Eragon]. Bu eserler, sizi büyüleyici maceralara ve epik savaşlara götürecek.",
+        "Fantastik dünyalara bir kapı açın! İşte size eşsiz fantastik romanlar: [Percy Jackson ve Olimposlular Serisi], [Kralkatili Güncesi], [Yıldız Tozu Serisi]. Bu kitaplar, sıra dışı karakterlerle dolu ve heyecan verici maceralarla dolu.",
+        "Fantastik düşlerinizi gerçeğe dönüştürün! İşte size benzersiz fantastik öneriler: [Diskdünya Serisi], [Yerdeniz Serisi], [Göçebe]. Bu eserler, sizi büyülü dünyaların derinliklerine götürecek ve sürükleyici maceralarla dolu bir yolculuğa çıkaracak."
+      ]
+    },
+    {
+      "tag": "macera",
+      "patterns": ["macera kitabı önerisi", "macera roman tavsiyesi", "macera edebiyatı","Macera","macera"],
+      "responses": [
+        "Macera dolu dünyalara hoş geldiniz! Macera severler için şu kitapları öneririm: [Robinson Crusoe], [Jules Verne: 80 Günde Devr-i Alem], [Jack London: Vahşetin Çağrısı]. Bu eserler, sizi keşfedilmemiş topraklara götürecek.",
+        "Heyecan dolu maceralar sizi bekliyor! İşte size eşsiz macera romanları: [Indiana Jones Serisi], [Macera Avcıları], [Denizler Altında Yirmi Bin Fersah]. Bu kitaplar, sizi tehlikeli yolculuklara ve bilinmeyen diyarlara götürecek.",
+        "Macera ruhunuzu canlandırın! İşte size benzersiz macera öneriler: [Kaptan Grant'ın Çocukları], [Moby Dick], [Tarzan]. Bu eserler, sizi vahşi doğanın derinliklerine ve epik maceralara götürecek."
+      ]
+    },
+    {
+      "tag": "romantik",
+      "patterns": ["romantik kitap önerisi", "romantik roman tavsiyesi", "aşk romanları","Romantik"],
+      "responses": [
+        "Aşk dolu dünyalara hoş geldiniz! Romantik kitap severler için şu eserleri öneririm: [Jane Austen: Aşk ve Gurur], [Emily Bronte: Uğultulu Tepeler], [Nicholas Sparks: Bir Uğraşın Sonu]. Bu eserler, sizi duygusal ve romantik bir yolculuğa çıkaracak.",
+        "Heyecan dolu aşk hikayeleri sizi bekliyor! İşte size eşsiz romantik romanlar: [Jojo Moyes: Senden Önce Ben], [Colleen Hoover: Ugly Love], [Sylvain Reynard: Melek]. Bu kitaplar, kalplerinizi ısıtacak ve duygusal derinliklerde bir yolculuğa çıkaracak.",
+        "Aşkın büyüsüne kapılın! İşte size benzersiz romantik öneriler: [Pride and Prejudice], [Outlander], [Me Before You]. Bu eserler, sizi romantizm dolu dünyalara götürecek ve duygusal bir yolculuğa çıkaracak."
+      ]
+    },
+    {
+      "tag": "tarihi-roman",
+      "patterns": ["tarihi roman kitabı önerisi", "tarihi roman tavsiyesi", "tarihî kurgu","Tarihi"],
+      "responses": [
+        "Tarihin gizemli dünyasına hoş geldiniz! Tarihi roman severler için şu eserleri öneririm: [Ken Follett: Sütunların Düşüşü], [Khaled Hosseini: Afgan Kızı], [Hilary Mantel: Kurtlarla Dans]. Bu eserler, sizi geçmiş zamanlara götürecek ve tarihin derinliklerinde bir yolculuğa çıkaracak.",
+        "Geçmişin izinde romantik hikayeler sizi bekliyor! İşte size eşsiz tarihi romanlar: [Diana Gabaldon: Yabancı], [Anthony Doerr: Işık Her Yerde], [Jean M. Auel: Mağara Ayıları]. Bu kitaplar, tarihi olaylarla romantik ve heyecanlı hikayeleri birleştiriyor.",
+        "Tarihi sırlar ve maceralarla dolu bir yolculuğa hazır olun! İşte size benzersiz tarihi roman önerileri: [Robert Harris: Pompei], [Philippa Gregory: Beyaz Kraliçe], [Neal Stephenson: Barok Döngüsü]. Bu eserler, tarihi figürlerin ve olayların etrafında dolaşarak sizi büyüleyici bir dünyaya taşıyacak."
+      ]
+    },
+    {
+      "tag": "otobiyografi",
+      "patterns": ["otobiyografi kitabı önerisi", "otobiyografi tavsiyesi", "kişisel hikayeler","OtoBiyografi"],
+      "responses": [
+        "Hayat hikayelerine hoş geldiniz! Otobiyografi severler için şu eserleri öneririm: [Malcolm X: Malcolm X'in Anıları], [Michelle Obama: Becoming], [Tara Westover: Educated]. Bu eserler, sizi yazarların kişisel deneyimlerine ve yaşam mücadelelerine tanık edecek.",
+        "Gerçek yaşam hikayeleri sizi bekliyor! İşte size eşsiz otobiyografik romanlar: [Nelson Mandela: Long Walk to Freedom], [Maya Angelou: I Know Why the Caged Bird Sings], [Anne Frank: Anne Frank'in Hatıra Defteri]. Bu kitaplar, yazarların yaşam yolculukları ve içsel dönüşümleri hakkında dokunaklı hikayeler sunuyor.",
+        "Gerçek hikayelerin gücünü keşfedin! İşte size benzersiz otobiyografi önerileri: [Angela's Ashes], [The Diary of a Young Girl], [Born a Crime]. Bu eserler, yazarların yaşam mücadelelerini, zaferlerini ve dönüşümlerini anlatarak sizi etkileyecek."
+      ]
+    },
+    {
+      "tag": "biyografi",
+      "patterns": ["biyografi kitabı önerisi", "biyografi tavsiyesi", "hayat hikayeleri","Biyografi"],
+      "responses": [
+        "Gerçek yaşam hikayelerine hoş geldiniz! Biyografi severler için şu eserleri öneririm: [Walter Isaacson: Steve Jobs], [Ron Chernow: Alexander Hamilton], [Laura Hillenbrand: Unbroken]. Bu eserler, tarihi figürlerin ve olayların gerçekçi portrelerini sunar.",
+        "Hayatın gerçek hikayeleri sizi bekliyor! İşte size eşsiz biyografi romanlar: [Elon Musk: Tesla, SpaceX ve Geleceğin Şekillendirilmesi], [Tina Fey: Bossypants], [Michelle Obama: Becoming]. Bu kitaplar, ilham verici hayat hikayeleri ve başarı öyküleriyle doludur.",
+        "Gerçek hikayelerin gücünü keşfedin! İşte size benzersiz biyografi önerileri: [Malcolm X: Malcolm X'in Anıları], [Anne Frank: Anne Frank'in Hatıra Defteri], [Nelson Mandela: Long Walk to Freedom]. Bu eserler, insanın içsel gücünü ve direncini vurgular."
+      ]
+    },
+    {
+      "tag": "egitim",
+      "patterns": ["eğitim kitabı önerisi", "eğitim tavsiyesi", "öğrenme kaynakları","egitim"],
+      "responses": [
+        "Eğitim dünyasına hoş geldiniz! Eğitim severler için şu eserleri öneririm: [John Hattie: Visible Learning], [Paulo Freire: Pedagogy of the Oppressed], [Carol Dweck: Mindset]. Bu eserler, eğitimde dönüştürücü yaklaşımlar sunar.",
+        "Öğrenme yolculuğunuza hazır olun! İşte size eşsiz eğitim kaynakları: [Ken Robinson: The Element], [Daniel T. Willingham: Why Don't Students Like School?], [Howard Gardner: Multiple Intelligences]. Bu kitaplar, öğrenme ve öğretme süreçleri hakkında derinlemesine bir anlayış sağlar.",
+        "Öğretim ve öğrenme üzerine derinlemesine bilgi edinin! İşte size benzersiz eğitim önerileri: [Loris Malaguzzi: The Hundred Languages of Children], [Robert Marzano: Classroom Instruction That Works], [Douglas Fisher & Nancy Frey: Better Learning Through Structured Teaching]. Bu eserler, etkili öğretim stratejileri ve pedagoji üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "bilim-doga",
+      "patterns": ["bilim ve doğa kitabı önerisi", "bilim ve doğa tavsiyesi", "doğa bilimleri"],
+      "responses": [
+        "Doğanın ve bilimin büyülü dünyasına hoş geldiniz! Bilim ve doğa severler için şu eserleri öneririm: [Richard Dawkins: The Selfish Gene], [E.O. Wilson: The Diversity of Life], [Rachel Carson: Silent Spring]. Bu eserler, doğanın gizemlerini keşfetmenize yardımcı olacak.",
+        "Bilimsel keşifler ve doğanın güzellikleri sizi bekliyor! İşte size eşsiz bilim ve doğa kaynakları: [Stephen Hawking: A Brief History of Time], [Yuval Noah Harari: Sapiens: A Brief History of Humankind], [David Attenborough: Life on Earth]. Bu kitaplar, bilim ve doğa hakkında derinlemesine bir anlayış sunar.",
+        "Doğanın mucizelerini keşfedin ve bilimin gücünü deneyimleyin! İşte size benzersiz bilim ve doğa önerileri: [Jane Goodall: In the Shadow of Man], [Carl Sagan: Cosmos], [Aldo Leopold: A Sand County Almanac]. Bu eserler, doğa bilimleri ve çevre koruma konularında size ilham verecek."
+      ]
+    },
+    {
+      "tag": "felsefe",
+      "patterns": ["felsefe kitabı önerisi", "felsefi eser tavsiyesi", "felsefe ve düşünce","Felsefik"],
+      "responses": [
+        "Felsefe dünyasına hoş geldiniz! Felsefe meraklıları için şu eserleri öneririm: [Platon: Devlet], [Aristoteles: Nikomakhos'a Etik], [Jean-Paul Sartre: Varlık ve Hiçlik]. Bu eserler, temel felsefi kavramları ve düşünce sistemlerini inceler.",
+        "Felsefi düşüncelerin derinliklerine dalmaya hazır olun! İşte size eşsiz felsefe kaynakları: [Immanuel Kant: Saf Aklın Eleştirisi], [Friedrich Nietzsche: Böyle Buyurdu Zerdüşt], [Michel Foucault: Bilginin Arkeolojisi]. Bu kitaplar, felsefi düşünceyi derinlemesine araştırır ve sorgular.",
+        "Felsefe ve insan doğası üzerine düşünmeye davetlisiniz! İşte size benzersiz felsefe önerileri: [Albert Camus: Yabancı], [Simone de Beauvoir: İkinci Cins], [Søren Kierkegaard: Varoluşçu Düşünceler]. Bu eserler, insan varlığının anlamı ve amacı üzerine derin düşünceler sunar."
+      ]
+    },
+    {
+      "tag": "din-mitoloji",
+      "patterns": ["din ve mitoloji kitabı önerisi", "mitolojik eser tavsiyesi", "dini metinler","dini ve mitolojik nesne kitaplar","din mitoloji"],
+      "responses": [
+        "Mitolojik ve dini dünyalara hoş geldiniz! Din ve mitoloji meraklıları için şu eserleri öneririm: [Edith Hamilton: Mitoloji], [Karen Armstrong: Dinin Tarihi], [Stephen Fry: Heroes]. Bu eserler, mitolojik ve dini hikayeleri inceler ve anlamaya çalışır.",
+        "Dinlerin ve mitolojilerin gizemli dünyasına dalmaya hazır olun! İşte size eşsiz din ve mitoloji kaynakları: [Zeus: Ağustos'un Sonu], [Joseph Campbell: The Hero with a Thousand Faces], [Mircea Eliade: Dinin Anlamı]. Bu kitaplar, farklı kültürlerin inanç sistemlerini ve mitolojik öykülerini derinlemesine inceler.",
+        "Dinlerin ve mitolojilerin etkileyici dünyasını keşfedin! İşte size benzersiz din ve mitoloji önerileri: [Homer: İlyada], [Veda: Rigveda], [Thomas Bulfinch: Age of Fable]. Bu eserler, antik efsaneler ve dini metinler hakkında bilgi edinmenize yardımcı olur."
+      ]
+    },
+    {
+      "tag": "siir",
+      "patterns": ["şiir kitabı önerisi", "şiir tavsiyesi", "şiir koleksiyonu"],
+      "responses": [
+        "Duyguların ve imgelerin büyülü dünyasına hoş geldiniz! Şiir severler için şu eserleri öneririm: [Nazım Hikmet: Memleketimden İnsan Manzaraları], [Rumi: Mesnevi], [Emily Dickinson: The Complete Poems]. Bu eserler, farklı zamanlardan ve kültürlerden şiirlerle dolu.",
+        "Kelimelerin dansına hazır olun! İşte size eşsiz şiir koleksiyonları: [Pablo Neruda: Twenty Love Poems and a Song of Despair], [Sylvia Plath: Ariel], [Lang Leav: Love & Misadventure]. Bu kitaplar, aşk, kayıp, ve insan deneyimleri üzerine dokunaklı şiirler sunar.",
+        "Dilin ve duygunun inceliklerini keşfedin! İşte size benzersiz şiir önerileri: [Walt Whitman: Leaves of Grass], [Seamus Heaney: Selected Poems 1966-1987], [Warsan Shire: Teaching My Mother How to Give Birth]. Bu eserler, farklı tarz ve temalarda şiirlerle doludur."
+      ]
+    },
+    {
+      "tag": "sanat-muzik",
+      "patterns": ["sanat ve müzik kitabı önerisi", "sanat eseri tavsiyesi", "müzikal inceleme","müzik kitap önerisi"],
+      "responses": [
+        "Sanatın ve müziğin büyülü dünyasına hoş geldiniz! Sanat ve müzik severler için şu eserleri öneririm: [Vincent van Gogh: Mektuplar], [Mozart: Symphony No. 40 in G minor], [Leonardo da Vinci: Sanat Üzerine]. Bu eserler, sanat eserlerinin ve müzikal yapıtların incelenmesine ışık tutar.",
+        "Sanat eserlerinin ve müziğin derinliklerine inin! İşte size eşsiz sanat ve müzik kaynakları: [Johann Sebastian Bach: The Well-Tempered Clavier], [Michelangelo: Complete Works], [John Berger: Ways of Seeing]. Bu kitaplar, farklı sanat disiplinlerini ve müzikal tarzları analiz eder.",
+        "Sanatın ve müziğin ruhunu keşfedin! İşte size benzersiz sanat ve müzik önerileri: [Gustav Klimt: The Kiss], [Beethoven: Symphony No. 9 in D minor], [Susan Sontag: On Photography]. Bu eserler, sanatın ve müziğin evrensel dilini anlamanıza yardımcı olur."
+      ]
+    },
+    {
+      "tag": "saglik-fitness",
+      "patterns": ["sağlık ve fitness kitabı önerisi", "sağlıklı yaşam tavsiyesi", "fitness rehberi"],
+      "responses": [
+        "Sağlıklı yaşamın kapılarını aralıyoruz! Sağlık ve fitness meraklıları için şu eserleri öneririm: [Michael Pollan: In Defense of Food], [Mark Sisson: The Primal Blueprint], [Kayla Itsines: The Bikini Body Guide]. Bu eserler, sağlıklı beslenme, egzersiz ve genel iyilik hali konularında bilgi sunar.",
+        "Vücudunuzu ve ruhunuzu güçlendirin! İşte size eşsiz sağlık ve fitness kaynakları: [James Clear: Atomic Habits], [Jillian Michaels: Master Your Metabolism], [Rich Roll: Finding Ultra]. Bu kitaplar, motivasyon ve sağlık hedeflerine ulaşmanıza yardımcı olur.",
+        "Sağlıklı yaşam tarzını keşfedin ve hayatınızı değiştirin! İşte size benzersiz sağlık ve fitness önerileri: [Terry Wahls: The Wahls Protocol], [David Goggins: Can't Hurt Me], [Shawn Stevenson: Sleep Smarter]. Bu eserler, sağlıklı alışkanlıklar ve vücut geliştirme konularında derinlemesine bilgi sunar."
+      ]
+    },
+    {
+      "tag": "is-kariyer",
+      "patterns": ["iş ve kariyer kitabı önerisi", "kariyer gelişimi tavsiyesi", "iş dünyası","iş için kitap "],
+      "responses": [
+        "Kariyerinizde yeni bir adım atmaya hazır mısınız? İş ve kariyer gelişimi için şu eserleri öneririm: [Stephen R. Covey: 7 Habits of Highly Effective People], [Dale Carnegie: How to Win Friends and Influence People], [Sheryl Sandberg: Lean In]. Bu eserler, liderlik, iletişim ve iş dünyasında başarı için temel prensipler sunar.",
+        "Kariyerinizde ilerlemenin anahtarlarına sahip olun! İşte size eşsiz kariyer gelişimi kaynakları: [Cal Newport: Deep Work], [Simon Sinek: Start with Why], [Tim Ferriss: The 4-Hour Workweek]. Bu kitaplar, etkili zaman yönetimi, motivasyon ve yaratıcılık konularında derinlemesine bilgi sunar.",
+        "İş dünyasında lider olmanın yollarını keşfedin! İşte size benzersiz iş ve kariyer önerileri: [Malcolm Gladwell: Outliers], [Daniel Pink: Drive], [Angela Duckworth: Grit]. Bu eserler, başarıya giden yolda karşılaşılan zorlukları ve stratejileri ele alır."
+      ]
+    },
+    {
+      "tag": "cocuk-kitaplari",
+      "patterns": ["çocuk kitabı önerisi", "çocuk edebiyatı tavsiyesi", "çocuk hikayeleri","Çoçuksu Hikayeler"],
+      "responses": [
+        "Masalsı dünyalara hoş geldiniz! Çocuk kitapları severler için şu eserleri öneririm: [Antoine de Saint-Exupéry: Küçük Prens], [Roald Dahl: Charlie'nin Çikolata Fabrikası], [Astrid Lindgren: Pippi Uzunçorap]. Bu eserler, çocukların hayal gücünü ve merakını besler.",
+        "Eğlenceli maceralar ve dostluk hikayeleri sizi bekliyor! İşte size eşsiz çocuk kitapları: [J.K. Rowling: Harry Potter Serisi], [Dr. Seuss: Green Eggs and Ham], [Eric Carle: The Very Hungry Caterpillar]. Bu kitaplar, çocukların eğlenirken öğrenmelerine olanak tanır.",
+        "Çocukların dünyasına renk katın! İşte size benzersiz çocuk kitabı önerileri: [Julia Donaldson: The Gruffalo], [Maurice Sendak: Where the Wild Things Are], [Shel Silverstein: Where the Sidewalk Ends]. Bu eserler, çocukların hayal gücünü ve yaratıcılığını destekler."
+      ]
+    },
+    {
+      "tag": "genc-yetiskin",
+      "patterns": ["genç yetişkin kitabı önerisi", "YA kitap tavsiyesi", "gençlik romanları","yetişkin öneriler kitap"],
+      "responses": [
+        "Genç yetişkinların dünyasına hoş geldiniz! Genç yetişkin kitapları severler için şu eserleri öneririm: [J.K. Rowling: Harry Potter Serisi], [John Green: The Fault in Our Stars], [Sarah J. Maas: Throne of Glass Serisi]. Bu eserler, genç okuyucuların duygusal ve fantastik dünyalara yolculuk etmelerini sağlar.",
+        "Macera dolu hikayeler ve gençlik serüvenleri sizi bekliyor! İşte size eşsiz genç yetişkin kitapları: [Veronica Roth: Divergent Serisi], [Suzanne Collins: The Hunger Games Serisi], [Rick Riordan: Percy Jackson & the Olympians Serisi]. Bu kitaplar, genç okuyucuları heyecan verici maceralara sürükler.",
+        "Genç yetişkinların dünyasında keşif yapın! İşte size benzersiz genç yetişkin kitabı önerileri: [Angie Thomas: The Hate U Give], [Rainbow Rowell: Fangirl], [Marie Lu: Legend Serisi]. Bu eserler, genç okuyucuların kimlik arayışları ve büyüme hikayeleri üzerine derinlemesine düşünmelerini sağlar."
+      ]
+    },
+    {
+      "tag": "rehber-kitaplari",
+      "patterns": ["rehber kitabı önerisi", "kılavuz tavsiyesi", "pratik bilgiler","rehber ve kılavuz öneri"],
+      "responses": [
+        "Hayatınızı kolaylaştıracak rehber kitaplarını keşfedin! Rehber kitapları severler için şu eserleri öneririm: [Dale Carnegie: Nasıl İnsanlarla İyi Geçerim], [Marie Kondo: The Life-Changing Magic of Tidying Up], [Tim Ferriss: The 4-Hour Workweek]. Bu eserler, kişisel gelişim ve pratik beceriler üzerine değerli ipuçları sunar.",
+        "Kariyerinizi yönlendirmenize ve hedeflerinize ulaşmanıza yardımcı olacak rehberler! İşte size eşsiz rehber kitapları: [Stephen R. Covey: 7 Habits of Highly Effective People], [Angela Duckworth: Grit], [Cal Newport: Deep Work]. Bu kitaplar, liderlik, başarı ve motivasyon konularında rehberlik eder.",
+        "Her alanda uzmanlaşmanızı sağlayacak pratik bilgiler! İşte size benzersiz rehber kitapı önerileri: [David Allen: Getting Things Done], [Michael Pollan: In Defense of Food], [Gretchen Rubin: The Happiness Project]. Bu eserler, zaman yönetimi, sağlıklı yaşam ve mutluluk konularında değerli bilgiler sunar."
+      ]
+    },
+    {
+      "tag": "referans-kitaplari",
+      "patterns": ["referans kitabı önerisi", "kaynak kitap tavsiyesi", "ansiklopedi","bana referans önerisi"],
+      "responses": [
+        "Bilgi hazinenizi genişletecek referans kitaplarını keşfedin! Referans kitapları severler için şu eserleri öneririm: [Encyclopædia Britannica], [The Oxford English Dictionary], [The Cambridge Encyclopedia of Language]. Bu eserler, geniş kapsamlı bilgi ve ansiklopedik kaynaklar sunar.",
+        "Her konuda derinlemesine bilgi edinmenize yardımcı olacak referans kaynakları! İşte size eşsiz referans kitapları: [Merriam-Webster's Collegiate Dictionary], [The World Almanac and Book of Facts], [The Encyclopedia of World History]. Bu kitaplar, geniş bir yelpazede bilgi sunar ve bilgi açığını kapatır.",
+        "Her sorunuza cevap bulabileceğiniz kapsamlı referans kaynakları! İşte size benzersiz referans kitapı önerileri: [The Complete Book of Essential Oils and Aromatherapy], [The Elements of Style], [The Visual Dictionary of Interior Architecture and Design]. Bu eserler, çeşitli konularda derinlemesine bilgi sağlar ve pratik bir başvuru kaynağıdır."
+      ]
+    },
+    {
+      "tag": "deneme-kitaplari",
+      "patterns": ["deneme kitabı önerisi", "deneme yazısı tavsiyesi", "kişisel deneyimler","Deneme öneri yaparmısın"],
+      "responses": [
+        "Deneme türünün büyülü dünyasına hoş geldiniz! Deneme kitapları severler için şu eserleri öneririm: [Montaigne: Denemeler], [Virginia Woolf: Deneme Üzerine], [Joan Didion: Slouching Towards Bethlehem]. Bu eserler, yazarların içsel dünyalarını ve deneyimlerini yansıtır.",
+        "Farklı bakış açıları ve kişisel deneyimlerin derinliklerine dalmaya hazır olun! İşte size eşsiz deneme kitapları: [David Sedaris: Me Talk Pretty One Day], [Zadie Smith: Changing My Mind], [Ralph Waldo Emerson: Essays]. Bu kitaplar, yazarların yaşamı ve dünyayı anlama çabalarını keşfeder.",
+        "Kişisel ve düşünsel yolculuklara hazır olun! İşte size benzersiz deneme kitabı önerileri: [Annie Dillard: Pilgrim at Tinker Creek], [George Orwell: A Collection of Essays], [James Baldwin: Notes of a Native Son]. Bu eserler, derinlemesine düşünce ve duygularla dolu deneme yazıları sunar."
+      ]
+    },
+    {
+      "tag": "politika-toplum",
+      "patterns": ["politika kitabı önerisi", "toplum analizi tavsiyesi", "siyasi düşünce","toplum ve politika kitapı önerisi"],
+      "responses": [
+        "Siyaset ve toplumun karmaşık dünyasına hoş geldiniz! Politika ve toplum kitapları severler için şu eserleri öneririm: [George Orwell: 1984], [Thomas Hobbes: Leviathan], [Hannah Arendt: The Origins of Totalitarianism]. Bu eserler, siyasi ve toplumsal sistemleri ele alır ve analiz eder.",
+        "Toplumun ve siyasetin derinliklerine inmeye hazır olun! İşte size eşsiz politika ve toplum kaynakları: [Noam Chomsky: Manufacturing Consent], [Naomi Klein: The Shock Doctrine], [Robert D. Putnam: Bowling Alone]. Bu kitaplar, toplumsal değişimleri ve siyasi süreçleri inceler.",
+        "Siyasi düşüncenin çeşitli yönlerini keşfedin! İşte size benzersiz politika ve toplum önerileri: [Michel Foucault: Discipline and Punish], [Friedrich Hayek: The Road to Serfdom], [Ta-Nehisi Coates: Between the World and Me]. Bu eserler, siyasi felsefe ve toplumsal adalet konularında derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "kitap_onerisi",
+      "patterns": ["kitap önerebilir misiniz?", "kitap önerisi", "kitap tavsiyesi","ne okumalıyım","yeni kitap önerisi"],
+      "responses": [
+        "Elbette! Okumak istediğiniz türde kitaplar var mı?",
+        "Tabii, hangi türde kitaplar ilginizi çeker?",
+        "Kesinlikle! Hangi tür kitaplar hakkında öneriler istersiniz?",
+        "Kitap önerisi yapmak benim için keyifli! Hangi türde kitaplar ilginizi çeker?"
+      ]
+    },
+    {
+      "tag": "Anna Karenina",
+      "patterns": ["anna karenina hakkında bilgi", "anna karenina nedir", "anna karenina konusu", "anna karenina özeti"],
+      "responses": [
+        "Lev Tolstoy'un ünlü romanı 'Anna Karenina', Rusya'da geçen bir aşk ve trajedi hikayesidir. Eserde, Anna'nın yasak aşkı ve toplumun baskıları arasında yaşadığı içsel çatışma etkileyici bir şekilde işlenir.",
+        "Anna Karenina, 19. yüzyıl Rus toplumunun karmaşıklığını ve ahlaki çatışmalarını ustalıkla anlatır. Tolstoy'un derinlikli karakter analizleriyle dolu bu eser, edebiyat dünyasında unutulmaz bir yer edinmiştir."
+      ]
+    },
+    {
+      "tag": "Yüzüklerin Efendisi",
+      "patterns": ["yüzüklerin efendisi hakkında bilgi", "yüzüklerin efendisi nedir", "yüzüklerin efendisi konusu", "yüzüklerin efendisi özeti"],
+      "responses": [
+        "'Yüzüklerin Efendisi', J.R.R. Tolkien'in efsanevi Orta Dünya evreninde geçen bir epik fantezi serisidir. Orta Dünya'nın kaderini değiştirecek olan bir yüzük etrafında şekillenen destansı bir yolculuğu anlatır.",
+        "Tolkien'in yaratıcı dünyası, epik savaş sahneleri ve derin karakter gelişimleriyle dolu olan 'Yüzüklerin Efendisi', edebiyat tarihinde unutulmaz bir başyapıttır."
+      ]
+    },
+    {
+      "tag": "Uğultulu Tepeler",
+      "patterns": ["uğultulu tepeler hakkında bilgi", "uğultulu tepeler nedir", "uğultulu tepeler konusu", "uğultulu tepeler özeti"],
+      "responses": [
+        "'Uğultulu Tepeler', Emily Brontë'nin klasikleşmiş romanıdır. İntikam, tutku ve kaderin birbirine geçtiği bu hikaye, İngiliz edebiyatının en etkileyici eserlerinden biridir.",
+        "Emily Brontë'nin derinlikli karakterleri ve çarpıcı doğa tasvirleriyle dolu olan 'Uğultulu Tepeler', aşkın karanlık ve karmaşık yönlerini anlatan unutulmaz bir eserdir."
+      ]
+    },
+    {
+      "tag": "Bin Muhteşem Güneş",
+      "patterns": ["bin muhteşem güneş hakkında bilgi", "bin muhteşem güneş nedir", "bin muhteşem güneş konusu", "bin muhteşem güneş özeti"],
+      "responses": [
+        "Khaled Hosseini'nin en çok satan romanı olan 'Bin Muhteşem Güneş', Afganistan'ın karmaşık tarihini ve insanların yaşadığı trajedileri anlatır. Arkadaşlık, aile ve bağışlamanın gücünü vurgular.",
+        "Hosseini'nin dokunaklı anlatımı ve etkileyici karakterleriyle dolu olan 'Bin Muhteşem Güneş', unutulmaz bir hikaye anlatır ve okuyucuyu derin düşüncelere sürükler."
+      ]
+    },
+    {
+      "tag": "Ulysses",
+      "patterns": ["ulysses hakkında bilgi", "ulysses nedir", "ulysses konusu", "ulysses özeti"],
+      "responses": [
+        "James Joyce'un modernist başyapıtı 'Ulysses', Dublin'de geçen bir gün boyunca üç farklı karakterin iç dünyalarını detaylı bir şekilde ele alır. Akıl ve bilinç akışı tekniğiyle yazılmıştır.",
+        "'Ulysses', dilin sınırlarını zorlayan, karmaşık yapısı ve çağdaş temalarıyla edebiyat dünyasında önemli bir yere sahiptir. Joyce'un deneysel yaklaşımıyla dolu bu eser, okuyucuya derin bir deneyim sunar."
+      ]
+    },
+    {
+      "tag": "Kafkaya Dönüşmek",
+      "patterns": ["kafkaya dönüşmek hakkında bilgi", "kafkaya dönüşmek nedir", "kafkaya dönüşmek konusu", "kafkaya dönüşmek özeti"],
+      "responses": [
+        "Franz Kafka'nın kısa hikaye koleksiyonu 'Kafkaya Dönüşmek', insanın yabancılaşma ve varoluşsal endişelerini ele alır. Kafka'nın sürreal ve metaforik anlatımıyla dolu bu eser, edebiyat dünyasında önemli bir yere sahiptir.",
+        "'Kafkaya Dönüşmek', Kafka'nın çağdaşlarıyla sınırlarını aşan bir etkiye sahip olan başyapıtlarından biridir. Her bir hikaye, okuyucuyu düşündürür ve sorgulamaya iter."
+      ]
+    },
+    {
+      "tag": "Yüzyıllık Yalnızlık",
+      "patterns": ["yüzyıllık yalnızlık hakkında bilgi", "yüzyıllık yalnızlık nedir", "yüzyıllık yalnızlık konusu", "yüzyıllık yalnızlık özeti"],
+      "responses": [
+        "Gabriel Garcia Marquez'in Nobel ödüllü romanı 'Yüzyıllık Yalnızlık', Latin Amerika'da bir ailenin yüzyıllık hikayesini anlatır. Gerçeküstü bir atmosferde, aşk, savaş ve trajediye odaklanır.",
+        "'Yüzyıllık Yalnızlık', Marquez'in büyüleyici anlatımıyla ve büyülü gerçekçilik tarzıyla dolu unutulmaz bir eserdir. Karakterleri ve olaylarıyla edebiyat dünyasında derin bir etki bırakmıştır."
+      ]
+    },
+    {
+      "tag": "Karamazov Kardeşler",
+      "patterns": ["karamazov kardeşler hakkında bilgi", "karamazov kardeşler nedir", "karamazov kardeşler konusu", "karamazov kardeşler özeti"],
+      "responses": [
+        "Fyodor Dostoyevski'nin başyapıtlarından biri olan 'Karamazov Kardeşler', ahlaki çatışma, dini sorgulama ve insanın doğası üzerine derin bir inceleme sunar. Rus edebiyatının en önemli eserlerinden biridir.",
+        "'Karamazov Kardeşler', Dostoyevski'nin derinlikli karakter analizleri ve felsefi temalarıyla dolu olan unutulmaz bir romanıdır. İnsanın içsel çatışmalarını ve ahlaki sorgulamalarını ustalıkla işler."
+      ]
+    },
+    {
+      "tag": "Olağanüstü Bir Gün",
+      "patterns": ["olağanüstü bir gün hakkında bilgi", "olağanüstü bir gün nedir", "olağanüstü bir gün konusu", "olağanüstü bir gün özeti"],
+      "responses": [
+        "Kazuo Ishiguro'nun Nobel ödüllü romanı 'Olağanüstü Bir Gün', İngiltere'de geçen bir yatılı okul öğretmeninin anılarına dayanan dokunaklı bir hikayeyi anlatır. Bellek, geçmiş ve kimlik kavramları üzerine derinlemesine bir düşünceye sahiptir.",
+        "'Olağanüstü Bir Gün', Ishiguro'nun etkileyici anlatımı ve karakterlerinin içsel monologlarıyla dolu unutulmaz bir eserdir. Belleğin ve geçmişin insanların kimliklerini nasıl şekillendirdiğine dair derin bir düşünce sunar."
+      ]
+    },
+    {
+      "tag": "Görsel Şiirler",
+      "patterns": ["görsel şiirler hakkında bilgi", "görsel şiirler nedir", "görsel şiirler konusu", "görsel şiirler özeti"],
+      "responses": [
+        "'Görsel Şiirler', şiirsel ifadelerin görsel sanatlarla birleştiği bir türdür. Kelimelerin düzeni, tipografi ve görsel öğeler kullanılarak anlamın derinleştirildiği bir şiir türüdür.",
+        "'Görsel Şiirler', geleneksel şiirin sınırlarını zorlayan ve okuyucuya farklı bir deneyim sunan yaratıcı bir türdür. Kelimelerin görsel düzenlemelerle etkileyici bir şekilde ifade edildiği bu eserler, genellikle sanat ve edebiyat dünyasında ilgiyle karşılanır."
+      ]
+    },
+    {
+      "tag": "Don Kişot",
+      "patterns": ["don kişot hakkında bilgi", "don kişot nedir", "don kişot konusu", "don kişot özeti"],
+      "responses": [
+        "Miguel de Cervantes'in klasik romanı 'Don Kişot', İspanyol edebiyatının en önemli eserlerinden biridir. Eser, hayalperest bir soylunun kendi icat ettiği karakter olan Don Kişot ile uğraşmalarını anlatır.",
+        "'Don Kişot', komedi ve trajedi arasında denge kuran, insan doğasının çeşitli yönlerini ve hayallerin gücünü işleyen unutulmaz bir eserdir. Cervantes'in mizahi üslubu ve derin karakter analizleriyle doludur."
+      ]
+    },
+    {
+      "tag": "Madame Bovary",
+      "patterns": ["madame bovary hakkında bilgi", "madame bovary nedir", "madame bovary konusu", "madame bovary özeti"],
+      "responses": [
+        "Gustave Flaubert'in ünlü romanı 'Madame Bovary', 19. yüzyıl Fransa'sında sıkışıp kalan bir kadının hikayesini anlatır. Romantizmin acımasız eleştirisiyle dolu bu eser, edebiyat dünyasında önemli bir yere sahiptir.",
+        "'Madame Bovary', Flaubert'in sade ve incelikli üslubuyla dolu, insan doğasının derinlemesine bir incelemesidir. Eser, kadının toplumsal baskılara ve kendi içsel çatışmalarına nasıl direndiğini anlatır."
+      ]
+    },
+    {
+      "tag": "Faust",
+      "patterns": ["faust hakkında bilgi", "faust nedir", "faust konusu", "faust özeti"],
+      "responses": [
+        "Johann Wolfgang von Goethe'nin trajedisi 'Faust', bir Alman efsanesine dayanan ve insanın sonsuz arayışını anlatan bir eserdir. Faust'un şeytana olan anlaşması ve sonrasındaki trajik hikayesi epik bir şekilde işlenir.",
+        "'Faust', insanın bilgiye ve güce olan arzusuyla mücadelesini ve bunun getirdiği sonuçları derinlemesine ele alan bir başyapıttır. Goethe'nin lirik dili ve filozofik temalarıyla dolu olan bu eser, edebiyat tarihinde önemli bir yer edinmiştir."
+      ]
+    },
+    {
+      "tag": "Sefiller",
+      "patterns": ["sefiller hakkında bilgi", "sefiller nedir", "sefiller konusu", "sefiller özeti"],
+      "responses": [
+        "Victor Hugo'nun eşsiz eseri olan 'Sefiller', Fransız devrimi döneminde geçen bir klasik romandır. İnsan doğasını ve toplumsal adaletsizliği derinlemesine ele alır.",
+        "'Sefiller', toplumsal eşitsizliklerin ve insanın iyiliğinin savaşını anlatan etkileyici bir eserdir. Hugo'nun canlı karakterleri ve dramatik anlatımıyla dolu olan bu roman, edebiyat dünyasında unutulmaz bir yer edinmiştir."
+      ]
+    },
+    {
+      "tag": "Karamazov Kardeşler",
+      "patterns": ["karamazov kardeşler hakkında bilgi", "karamazov kardeşler nedir", "karamazov kardeşler konusu", "karamazov kardeşler özeti"],
+      "responses": [
+        "Fyodor Dostoyevski'nin başyapıtlarından biri olan 'Karamazov Kardeşler', ahlaki çatışma, dini sorgulama ve insanın doğası üzerine derin bir inceleme sunar. Rus edebiyatının en önemli eserlerinden biridir.",
+        "'Karamazov Kardeşler', Dostoyevski'nin derinlikli karakter analizleri ve felsefi temalarıyla dolu olan unutulmaz bir romanıdır. İnsanın içsel çatışmalarını ve ahlaki sorgulamalarını ustalıkla işler."
+      ]
+    },
+    {
+      "tag": "Macbeth",
+      "patterns": ["macbeth hakkında bilgi", "macbeth nedir", "macbeth konusu", "macbeth özeti"],
+      "responses": [
+        "William Shakespeare'in trajik oyunu 'Macbeth', hırslı bir adamın güç arayışını ve kendi yıkımını anlatır. İskoçya'da geçen bu oyun, güç, ihanet ve kaderin birbirine geçtiği bir hikayeyi işler.",
+        "'Macbeth', Shakespeare'in en ünlü eserlerinden biridir ve insan doğasının karanlık yönlerini ustalıkla işler. Karakterlerin içsel çatışmaları ve trajik sonuçlarıyla dolu bu oyun, edebiyat dünyasında unutulmaz bir yer edinmiştir."
+      ]
+    },
+    {
+      "tag": "Büyük Gatsby",
+      "patterns": ["büyük gatsby hakkında bilgi", "büyük gatsby nedir", "büyük gatsby konusu", "büyük gatsby özeti"],
+      "responses": [
+        "F. Scott Fitzgerald'ın klasik romanı 'Büyük Gatsby', 1920'lerin Amerika'sında zenginlik ve yozlaşmanın hikayesini anlatır. Amerikan Rüyası'nın boşluğunu ve insan ilişkilerindeki sahtelikleri eleştirir.",
+        "'Büyük Gatsby', Fitzgerald'ın parlak üslubu ve zamanın ruhunu yakalayan gözlemciliğiyle dolu unutulmaz bir eserdir. Roman, yükseliş ve çöküş arasındaki ince çizgiyi ustalıkla işler."
+      ]
+    },
+    {
+      "tag": "Cervantes'in Yel Değirmeni",
+      "patterns": ["cervantesin yel değirmeni hakkında bilgi", "cervantesin yel değirmeni nedir", "cervantesin yel değirmeni konusu", "cervantesin yel değirmeni özeti"],
+      "responses": [
+        "Miguel de Cervantes'in klasik eseri 'Don Kişot'un devamı niteliğindeki 'Cervantes'in Yel Değirmeni', donkişotvari bir macerayı anlatır. Don Kişot'un yanılsamalarla dolu serüvenlerine devam eder.",
+        "'Cervantes'in Yel Değirmeni', komik ve düşündürücü hikayesiyle, Cervantes'in efsanevi karakteri Don Kişot'un serüvenlerini devam ettirir. Mizahi bir üslupla yazılmıştır ve İspanyol edebiyatının önemli eserlerindendir."
+      ]
+    },
+    {
+      "tag": "Yıldız Gemisi Askerleri",
+      "patterns": ["yıldız gemisi askerleri hakkında bilgi", "yıldız gemisi askerleri nedir", "yıldız gemisi askerleri konusu", "yıldız gemisi askerleri özeti"],
+      "responses": [
+        "Robert A. Heinlein'in bilim kurgu romanı 'Yıldız Gemisi Askerleri', gelecekteki bir uzay ordusunun hikayesini anlatır. Roman, askeri disiplin ve vatani görev kavramlarını sorgular.",
+        "'Yıldız Gemisi Askerleri', Heinlein'in askeri ve siyasi temaları ustalıkla işlediği bir bilim kurgu klasiğidir. Roman, farklı gezegenlerde geçen heyecan dolu savaş sahneleri ve derin düşündürücü konularıyla dikkat çeker."
+      ]
+    },
+    {
+      "tag": "Dune",
+      "patterns": ["dune hakkında bilgi", "dune nedir", "dune konusu", "dune özeti"],
+      "responses": [
+        "Frank Herbert'in bilim kurgu klasiği 'Dune', gezegen Arrakis'in kontrolü için yapılan entrikaları ve kendi kaderini bulma mücadelesini anlatır. Politik entrikalar, dini felsefeler ve epik savaşlarla dolu bir evrene sahiptir.",
+        "'Dune', Herbert'in derinlikli karakterleri ve karmaşık dünya tasarımıyla dolu unutulmaz bir bilim kurgu serisidir. Roman, güç mücadeleleri ve insan doğasının derinliklerine dair düşündürücü temaları işler."
+      ]
+    },
+    {
+      "tag": "Zaman Makinesi",
+      "patterns": ["zaman makinesi hakkında bilgi", "zaman makinesi nedir", "zaman makinesi konusu", "zaman makinesi özeti"],
+      "responses": [
+        "H.G. Wells'in bilim kurgu klasiği 'Zaman Makinesi', bir bilim insanının zamanda yolculuk yapma deneyini anlatır. Gelecek ve geçmiş arasındaki maceralı bir yolculuk, insanlığın kaderini değiştirebilir.",
+        "'Zaman Makinesi', Wells'in zamanda yolculuk temalı en ünlü eserlerinden biridir. Roman, zamanda yolculuğun getirdiği felsefi ve toplumsal sonuçları derinlemesine ele alır."
+      ]
+    },
+    {
+      "tag": "Yaban Diyarlarda Yabancı",
+      "patterns": ["yaban diyarlarda yabancı hakkında bilgi", "yaban diyarlarda yabancı nedir", "yaban diyarlarda yabancı konusu", "yaban diyarlarda yabancı özeti"],
+      "responses": [
+        "Jack London'ın klasik eseri 'Yaban Diyarlarda Yabancı', Alaska'nın soğuk ve zorlu doğasında hayatta kalma mücadelesini anlatır. İnsan ile doğa arasındaki savaşın epik bir hikayesi.",
+        "'Yaban Diyarlarda Yabancı', doğaüstü ve macera dolu bir hikaye sunan Jack London'ın en ünlü eserlerinden biridir. İnsanın doğaya karşı verdiği mücadele ve doğanın acımasız gücü üzerine derin bir düşünceye sahiptir."
+      ]
+    },
+    {
+      "tag": "Robotlar ve İmparatorluk",
+      "patterns": ["robotlar ve imparatorluk hakkında bilgi", "robotlar ve imparatorluk nedir", "robotlar ve imparatorluk konusu", "robotlar ve imparatorluk özeti"],
+      "responses": [
+        "Isaac Asimov'un bilim kurgu serisi 'Robotlar ve İmparatorluk', insanlığın gelecekteki evrensel egemenliğini ve yapay zeka ile olan ilişkisini ele alır. Robotlarla insanlar arasındaki ilişkilerin karmaşıklığını işler.",
+        "'Robotlar ve İmparatorluk', Asimov'un ünlü Robot serisinin bir parçasıdır ve yapay zeka etrafında dönüyor. Seri, Asimov'un ünlü Üç Robot Yasası'nı da içerir ve insan-makine ilişkileri üzerine derinlemesine bir düşünce yürütür."
+      ]
+    },
+    {
+      "tag": "Hyperion",
+      "patterns": ["hyperion hakkında bilgi", "hyperion nedir", "hyperion konusu", "hyperion özeti"],
+      "responses": [
+        "Dan Simmons'ın bilim kurgu epik serisi 'Hyperion Cantos', insanlık ve yapay zeka arasındaki çatışmayı anlatır. Hyperion gezegeninde geçen bir dizi öykü, farklı karakterlerin kesişen kaderlerini anlatır.",
+        "'Hyperion', Simmons'ın karmaşık dünya yapısı ve derin karakter analizleriyle dolu unutulmaz bir bilim kurgu serisidir. İnsanın evrensel ve metafiziksel sorularını ele alır."
+      ]
+    },
+    {
+      "tag": "Yıldızların Sonundaki Yolculuk",
+      "patterns": ["yıldızların sonundaki yolculuk hakkında bilgi", "yıldızların sonundaki yolculuk nedir", "yıldızların sonundaki yolculuk konusu", "yıldızların sonundaki yolculuk özeti"],
+      "responses": [
+        "Arthur C. Clarke'ın bilim kurgu romanı 'Yıldızların Sonundaki Yolculuk', insanlığın evrenin sınırlarını keşfetme ve kendi varoluşsal sorularını sorma çabasını anlatır. Epik bir uzay macerası ve metafizik bir düşünce deneyimi sunar.",
+        "'Yıldızların Sonundaki Yolculuk', Clarke'ın derinlikli düşünceleri ve teknolojik vizyonuyla dolu unutulmaz bir eserdir. Roman, insanın evrenin derinliklerindeki yerini ve kendi varoluşunu sorgular."
+      ]
+    },
+    {
+      "tag": "Sonsuzluğun Sonu",
+      "patterns": ["sonsuzluğun sonu hakkında bilgi", "sonsuzluğun sonu nedir", "sonsuzluğun sonu konusu", "sonsuzluğun sonu özeti"],
+      "responses": [
+        "Isaac Asimov'un bilim kurgu hikayesi 'Sonsuzluğun Sonu', zaman ve uzayın sonsuzluğunu keşfetmeye çalışan bir grup bilim insanının hikayesini anlatır. Paradokslar, bilim kurgu ve felsefi sorularla dolu bir yolculuktur.",
+        "'Sonsuzluğun Sonu', Asimov'un ünlü hikaye koleksiyonlarından biridir ve bilim kurgu türünün önemli eserlerinden biridir. Zaman ve uzayın karmaşıklıklarını anlamaya çalışan karakterler, okuyucuyu derin bir düşünce yolculuğuna çıkarır."
+      ]
+    },
+    {
+      "tag": "Ben, Robot",
+      "patterns": ["ben robot hakkında bilgi", "ben robot nedir", "ben robot konusu", "ben robot özeti"],
+      "responses": [
+        "Isaac Asimov'un ünlü bilim kurgu öyküsü 'Ben, Robot', üç robot yasası etrafında dönen insan-makine ilişkilerini anlatır. Her bir öykü, yapay zeka ve etik konularını işler.",
+        "'Ben, Robot', Asimov'un ünlü Robot serisinin bir parçasıdır ve yapay zeka etrafında dönen hikayeleri içerir. Roman, insana benzeyen makinelerin doğası ve insanlarla ilişkileri üzerine derinlemesine düşünce yürütür."
+      ]
+    },
+    {
+      "tag": "Dracula",
+      "patterns": ["dracula hakkında bilgi", "dracula nedir", "dracula konusu", "dracula özeti"],
+      "responses": [
+        "Bram Stoker'ın klasik eseri 'Dracula', ünlü vampir Kont Drakula'nın hikayesini anlatır. Doğaüstü korku ve gerilim dolu bu roman, vampir mitolojisine yeni bir boyut kazandırmıştır.",
+        "'Dracula', korku edebiyatının en etkileyici eserlerinden biridir. Stoker'ın karanlık atmosferi ve gerilim dolu anlatımıyla dolu bu roman, edebiyat dünyasında unutulmaz bir yer edinmiştir."
+      ]
+    },
+    {
+      "tag": "Sessizliğin Müziği",
+      "patterns": ["sessizliğin müziği hakkında bilgi", "sessizliğin müziği nedir", "sessizliğin müziği konusu", "sessizliğin müziği özeti"],
+      "responses": [
+        "Patrick Süskind'in ünlü romanı 'Sessizliğin Müziği', gizemli bir parfüm yapımının ve bir seri cinayetin hikayesini anlatır. Roman, koku ve insan doğası üzerine derinlemesine bir inceleme sunar.",
+        "'Sessizliğin Müziği', Süskind'in sürükleyici anlatımı ve benzersiz atmosferiyle dolu, edebiyat dünyasında önemli bir yere sahip olan bir romandır. Koku duyusu ve insanın iç dünyası üzerine derin bir düşünce yürütür."
+      ]
+    },
+    {
+      "tag": "Hayalet Gemi",
+      "patterns": ["hayalet gemi hakkında bilgi", "hayalet gemi nedir", "hayalet gemi konusu", "hayalet gemi özeti"],
+      "responses": [
+        "'Hayalet Gemi', Arthur Conan Doyle'un ünlü korku öykülerinden biridir. Efsanevi hayalet gemi olan 'Marie Celeste' ile ilgili gizemli ve korkutucu bir hikaye anlatır.",
+        "'Hayalet Gemi', gerilim ve gizem dolu bir öykü sunan, korku edebiyatının klasiklerinden biridir. Doyle'un ustalıkla işlediği atmosfer ve olay örgüsüyle dikkat çeker."
+      ]
+    },
+    {
+      "tag": "Salem's Lot",
+      "patterns": ["salem's lot hakkında bilgi", "salem's lot nedir", "salem's lot konusu", "salem's lot özeti"],
+      "responses": [
+        "Stephen King'in korku klasiği 'Salem's Lot', küçük bir kasabanın vampirlerin istilasına uğramasını anlatır. King'in karanlık ve gerilim dolu atmosferiyle ünlü bir romanıdır.",
+        "'Salem's Lot', King'in karakter odaklı korku anlatımıyla dolu, unutulmaz bir eserdir. Kasabanın içine sızmış karanlık güçlerle mücadele eden karakterlerin hikayesini anlatır."
+      ]
+    },
+    {
+      "tag": "Cadılar",
+      "patterns": ["cadılar hakkında bilgi", "cadılar nedir", "cadılar konusu", "cadılar özeti"],
+      "responses": [
+        "Roald Dahl'ın çocuk kitabı 'Cadılar', bir çocuğun cadıların planlarını engellemeye çalışmasını konu alır. Mizahi ve fantastik öğelerle dolu eğlenceli bir hikaye sunar.",
+        "'Cadılar', Dahl'ın benzersiz mizah anlayışıyla dolu, çocuklar için eğlenceli ve heyecanlı bir macera kitabıdır. Çocukların hayal gücünü harekete geçirirken, korkutucu unsurları da hafif bir dille ele alır."
+      ]
+    },
+    {
+      "tag": "Görünmez Adam",
+      "patterns": ["görünmez adam hakkında bilgi", "görünmez adam nedir", "görünmez adam konusu", "görünmez adam özeti"],
+      "responses": [
+        "H.G. Wells'in bilim kurgu klasiği 'Görünmez Adam', bilim insanı Griffin'ın görünmezlik deneyi sonucu yaşadığı maceraları anlatır. Griffin, görünmezliğin getirdiği gücü kontrol etmeye çalışırken, insan doğasının karanlık yönlerini keşfeder.",
+        "'Görünmez Adam', Wells'in insan doğası ve teknolojinin sınırlarını sorgulayan derin bir hikayesiyle ünlü bir romandır. Görünmezliğin getirdiği sorumluluklar ve sonuçları üzerine derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "Evil Under the Sun",
+      "patterns": ["evil under the sun hakkında bilgi", "evil under the sun nedir", "evil under the sun konusu", "evil under the sun özeti"],
+      "responses": [
+        "Agatha Christie'nin polisiye romanı 'Evil Under the Sun', Hercule Poirot'nun tatilde çözmesi gereken bir cinayeti konu alır. Christie'nin karakter odaklı polisiye anlatımıyla ünlüdür.",
+        "'Evil Under the Sun', Christie'nin klasik dedektif hikayesiyle dolu, entrikalarla ve şüphelilerle dolu bir romandır. Poirot'un zekası ve detaylara olan dikkati, okuyucuyu cinayeti çözmeye teşvik eder."
+      ]
+    },
+    {
+      "tag": "Doktor Jekyll ve Bay Hyde",
+      "patterns": ["doktor jekyll ve bay hyde hakkında bilgi", "doktor jekyll ve bay hyde nedir", "doktor jekyll ve bay hyde konusu", "doktor jekyll ve bay hyde özeti"],
+      "responses": [
+        "Robert Louis Stevenson'ın klasik korku romanı 'Doktor Jekyll ve Bay Hyde', bir bilim insanının içindeki karanlık ikinci kişiliği keşfetmesini anlatır. İnsan doğasının iyi ve kötü arasındaki çatışmayı işler.",
+        "'Doktor Jekyll ve Bay Hyde', Stevenson'ın çarpıcı anlatımı ve psikolojik derinliğiyle dolu, unutulmaz bir eserdir. Roman, içsel çatışmalar ve insanın karanlık yönleri üzerine derinlemesine bir düşünce yürütür."
+      ]
+    },
+    {
+      "tag": "Gece Nöbeti",
+      "patterns": ["gece nöbeti hakkında bilgi", "gece nöbeti nedir", "gece nöbeti konusu", "gece nöbeti özeti"],
+      "responses": [
+        "Terry Pratchett'in fantastik eseri 'Gece Nöbeti', Discworld adlı bir dünyada geçen bir polisiye hikayesini anlatır. Komik ve absürt öğelerle dolu bir kurgu sunar.",
+        "'Gece Nöbeti', Pratchett'in eşsiz mizahı ve fantastik dünyasıyla dolu, okuyucuyu eğlendirirken düşündüren bir romandır. Discworld'deki bekçilerin maceraları, olaylar ve karakterler üzerine derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "Sherlock Holmes: Bir Kütüphane Kayboluyor",
+      "patterns": ["sherlock holmes bir kütüphane kayboluyor hakkında bilgi", "sherlock holmes bir kütüphane kayboluyor nedir", "sherlock holmes bir kütüphane kayboluyor konusu", "sherlock holmes bir kütüphane kayboluyor özeti"],
+      "responses": [
+        "Arthur Conan Doyle'un ünlü dedektif karakteri Sherlock Holmes'un maceralarından biri olan 'Bir Kütüphane Kayboluyor', gizemli bir hırsızlık vakasını çözmesini anlatır. Holmes ve Watson'ın dedektiflik becerileriyle dolu bir roman.",
+        "'Bir Kütüphane Kayboluyor', Sherlock Holmes serisinin bir parçası olup, karakterlerin zekice çözümleri ve sürpriz dolu hikayesiyle dikkat çeker. Doyle'un detaylı anlatımı ve karakter analizleriyle doludur."
+      ]
+    },
+    {
+      "tag": "Cinayetler Kulübü",
+      "patterns": ["cinayetler kulübü hakkında bilgi", "cinayetler kulübü nedir", "cinayetler kulübü konusu", "cinayetler kulübü özeti"],
+      "responses": [
+        "Agatha Christie'nin polisiye romanı 'Cinayetler Kulübü', bir grup insanın cinayetlerle dolu bir adada hapsolması ve katilin kimliğini bulmaya çalışmasını anlatır. Christie'nin karakter odaklı polisiye anlatımıyla ünlüdür.",
+        "'Cinayetler Kulübü', Christie'nin ustalıkla işlediği entrikalarla dolu, şüpheli karakterlerin arasında çözülmesi gereken bir sırrı anlatır. Olayların gelişimi ve çözümü okuyucuyu şaşırtır."
+      ]
+    },
+    {
+      "tag": "Büyük Uyku",
+      "patterns": ["büyük uyku hakkında bilgi", "büyük uyku nedir", "büyük uyku konusu", "büyük uyku özeti"],
+      "responses": [
+        "Raymond Chandler'ın polisiye romanı 'Büyük Uyku', özel dedektif Philip Marlowe'un Los Angeles'ta karmaşık bir cinayet davasını çözmesini anlatır. Film noir tarzında yazılmış bir roman.",
+        "'Büyük Uyku', Chandler'ın sert ve karanlık atmosferiyle dolu, entrikalarla ve çarpıcı diyaloglarla dolu bir romanıdır. Marlowe'un sırları çözmek için yaptığı araştırmalar ve karşılaştığı tehlikeler okuyucuyu gerilim dolu bir yolculuğa çıkarır."
+      ]
+    },
+    {
+      "tag": "Gone Girl",
+      "patterns": ["gone girl hakkında bilgi", "gone girl nedir", "gone girl konusu", "gone girl özeti"],
+      "responses": [
+        "Gillian Flynn'in gerilim romanı 'Gone Girl', kaybolan bir kadının hikayesini ve olayın arkasındaki sırları açığa çıkarmaya çalışan kocasını konu alır. Çarpıcı ve sürpriz dolu bir roman.",
+        "'Gone Girl', Flynn'in karmaşık karakterleri ve beklenmedik olay örgüsüyle dolu, okuyucuyu şaşırtan bir gerilim romanıdır. Roman, evlilik ve medyanın gücü üzerine derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "The Girl with the Dragon Tattoo",
+      "patterns": ["the girl with the dragon tattoo hakkında bilgi", "the girl with the dragon tattoo nedir", "the girl with the dragon tattoo konusu", "the girl with the dragon tattoo özeti"],
+      "responses": [
+        "Stieg Larsson'un ünlü romanı 'The Girl with the Dragon Tattoo', gazeteci Mikael Blomkvist ve hacker Lisbeth Salander'in suç ve gizem dolu bir hikayede bir araya gelmesini anlatır. Karmaşık bir cinayet davasını çözmeye çalışırlarken kendi geçmişleriyle de yüzleşirler.",
+        "'The Girl with the Dragon Tattoo', Larsson'ın dikkat çekici karakterleri ve sürükleyici kurgusuyla dolu, heyecan verici bir gerilim romanıdır. Suçlar, entrikalar ve karakterlerin derinlikli analiziyle okuyucuyu içine çeker."
+      ]
+    },
+    {
+      "tag": "The Silence of the Lambs",
+      "patterns": ["the silence of the lambs hakkında bilgi", "the silence of the lambs nedir", "the silence of the lambs konusu", "the silence of the lambs özeti"],
+      "responses": [
+        "Thomas Harris'in korku ve gerilim klasiği 'The Silence of the Lambs', FBI stajyeri Clarice Starling'in seri katil Hannibal Lecter'in yardımını alarak Buffalo Bill'i yakalamak için verdiği mücadeleyi anlatır. Karakterlerin zekice tasvirleri ve gerilim dolu sahneleriyle ünlüdür.",
+        "'The Silence of the Lambs', Harris'in karanlık atmosferi ve psikolojik derinliğiyle dolu, sinematik bir gerilim romanıdır. Lecter'in psikopatik zekası ve Starling'in cesareti, okuyucuyu gerilim dolu bir yolculuğa çıkarır."
+      ]
+    },
+    {
+      "tag": "İpeksi",
+      "patterns": ["ipeksi hakkında bilgi", "ipeksi nedir", "ipeksi konusu", "ipeksi özeti"],
+      "responses": [
+        "Isabelle Allende'nin romanı 'İpeksi', aşk, ihanet ve aile bağları üzerine dokunan duygusal bir hikayedir. Bir ailenin karmaşık ilişkilerini ve sırlarını keşfederken, güçlü kadın karakterlerin yaşamlarını anlatır.",
+        "'İpeksi', Allende'nin duygusal derinliği ve zengin karakterleriyle dolu, unutulmaz bir aile dramasıdır. Roman, geçmişle hesaplaşma ve geleceğe yönelik umutlar üzerine dokunaklı bir hikaye sunar."
+      ]
+    },
+    {
+      "tag": "Kaçak",
+      "patterns": ["kaçak hakkında bilgi", "kaçak nedir", "kaçak konusu", "kaçak özeti"],
+      "responses": [
+        "John Grisham'ın hukuk ve gerilim romanı 'Kaçak', genç bir avukatın büyük bir ilaç şirketiyle savaşını konu alır. Adalet arayışı ve hukukun üstünlüğü üzerine düşündürür.",
+        "'Kaçak', Grisham'ın heyecan dolu anlatımı ve hukuk sistemiyle ilgili derinlemesine bilgisiyle dolu, sürükleyici bir romanıdır. Adalet mücadelesi ve ahlaki çatışmalar üzerine derinlemesine bir inceleme sunar."
+      ]
+    },
+    {
+      "tag": "İçimdeki Karanlık",
+      "patterns": ["içimdeki karanlık hakkında bilgi", "içimdeki karanlık nedir", "içimdeki karanlık konusu", "içimdeki karanlık özeti"],
+      "responses": [
+        "Gillian Flynn'in psikolojik gerilim romanı 'İçimdeki Karanlık', bir kadının kayboluşunu araştıran bir adamın hikayesini anlatır. Gizemli olayların ve sürprizlerin dolu olduğu bir kurgusu vardır.",
+        "'İçimdeki Karanlık', Flynn'in karmaşık karakterleri ve beklenmedik dönüşleriyle dolu, sürükleyici bir gerilim romanıdır. Okuyucuyu şaşırtan ve düşündüren olaylarla doludur."
+      ]
+    },
+    {
+      "tag": "Yüzüklerin Efendisi",
+      "patterns": ["yüzüklerin efendisi hakkında bilgi", "yüzüklerin efendisi nedir", "yüzüklerin efendisi konusu", "yüzüklerin efendisi özeti"],
+      "responses": [
+        "J.R.R. Tolkien'in epik fantastik serisi 'Yüzüklerin Efendisi', Orta Dünya'da geçen bir hikayedir. Bir yüzük taşıyıcısının serüvenini ve onunla beraber savaşan farklı ırklardan karakterlerin hikayesini anlatır.",
+        "'Yüzüklerin Efendisi', Tolkien'in Orta Dünya mitolojisini ve karakter odaklı hikayesini derinlemesine işleyen, edebiyat dünyasının en ünlü eserlerinden biridir. İyi ile kötü arasındaki mücadele ve dostluk temalarını işler."
+      ]
+    },
+    {
+      "tag": "Harry Potter Serisi",
+      "patterns": ["harry potter serisi hakkında bilgi", "harry potter serisi nedir", "harry potter serisi konusu", "harry potter serisi özeti"],
+      "responses": [
+        "J.K. Rowling'in fantastik serisi 'Harry Potter', genç bir büyücü olan Harry'nin Hogwarts Cadılık ve Büyücülük Okulu'nda maceralarını anlatır. Büyü, dostluk ve kahramanlık temasını işler.",
+        "'Harry Potter', Rowling'in büyülü dünyası ve derin karakterleriyle dolu, okuyucuyu fantastik bir serüvene çeken bir seridir. Harry'nin büyülü dünyasını keşfetmesi ve karanlık güçlere karşı verdiği mücadeleleri anlatır."
+      ]
+    },
+    {
+      "tag": "Eragon",
+      "patterns": ["eragon hakkında bilgi", "eragon nedir", "eragon konusu", "eragon özeti"],
+      "responses": [
+        "Christopher Paolini'nin fantastik serisi 'Eragon', bir çocuğun ejderhayı bulmasıyla başlayan epik bir macerayı anlatır. Efsanevi yaratıklar, büyü ve savaş dolu bir dünyada geçer.",
+        "'Eragon', genç bir kahramanın keşif dolu bir serüvenine odaklanan, epik bir fantastik seridir. Paolini'nin derin karakterler ve zengin dünya tasviriyle dolu olan bu seri, okuyucuları büyülü bir yolculuğa çıkarır."
+      ]
+    },
+    {
+      "tag": "Percy Jackson ve Olimposlular Serisi",
+      "patterns": ["percy jackson ve olimposlular serisi hakkında bilgi", "percy jackson ve olimposlular serisi nedir", "percy jackson ve olimposlular serisi konusu", "percy jackson ve olimposlular serisi özeti"],
+      "responses": [
+        "Rick Riordan'ın serisi 'Percy Jackson ve Olimposlular', modern dünyada yaşayan Yunan mitolojisinin modern bir uyarlamasını sunar. Percy ve arkadaşlarının tanrılarla dolu maceralarını anlatır.",
+        "'Percy Jackson ve Olimposlular Serisi', Riordan'ın esprili anlatımı ve eğlenceli karakterleriyle dolu, heyecan verici bir macera serisidir. Antik Yunan mitolojisi ve modern dünya arasındaki etkileşimi ele alır."
+      ]
+    },
+    {
+      "tag": "Kralkatili Güncesi",
+      "patterns": ["kralkatili güncesi hakkında bilgi", "kralkatili güncesi nedir", "kralkatili güncesi konusu", "kralkatili güncesi özeti"],
+      "responses": [
+        "Patrick Rothfuss'un epik fantastik serisi 'Kralkatili Güncesi', efsanevi bir kahramanın gizemli geçmişini ve onun maceralarını anlatır. Zengin bir dünya ve karmaşık karakterlerle dolu bir hikaye.",
+        "'Kralkatili Güncesi', Rothfuss'un dikkat çekici anlatımı ve karakter odaklı hikayesiyle dolu, epik bir fantastik seridir. Efsanevi maceralar, büyü ve entrikalarla dolu bir dünya sunar."
+      ]
+    },
+    {
+      "tag": "Yıldız Tozu Serisi",
+      "patterns": ["yıldız tozu serisi hakkında bilgi", "yıldız tozu serisi nedir", "yıldız tozu serisi konusu", "yıldız tozu serisi özeti"],
+      "responses": [
+        "Brandon Sanderson'ın bilim kurgu serisi 'Yıldız Tozu', farklı güçlere sahip insanların hikayesini anlatır. Epik bir evren ve büyüleyici karakterlerle dolu bir maceradır.",
+        "'Yıldız Tozu Serisi', Sanderson'ın zengin dünyası ve eşsiz büyü sistemiyle dolu, heyecan verici bir bilim kurgu serisidir. Karakterlerin gelişimi ve evrenin derinliği okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Diskdünya Serisi",
+      "patterns": ["diskdünya serisi hakkında bilgi", "diskdünya serisi nedir", "diskdünya serisi konusu", "diskdünya serisi özeti"],
+      "responses": [
+        "Terry Pratchett'ın mizahi fantastik serisi 'Diskdünya', düz bir disk şeklinde olan bir dünyada geçer. Komik ve absürt olaylarla dolu, eğlenceli bir seridir.",
+        "'Diskdünya Serisi', Pratchett'ın eğlenceli üslubu ve derin mizahıyla dolu, fantastik bir dünyanın absürt öykülerini anlatır. Karakterler ve olaylar arasındaki ironik ilişkiler dikkat çeker."
+      ]
+    },
+    {
+      "tag": "Yerdeniz Serisi",
+      "patterns": ["yerdeniz serisi hakkında bilgi", "yerdeniz serisi nedir", "yerdeniz serisi konusu", "yerdeniz serisi özeti"],
+      "responses": [
+        "Ursula K. Le Guin'in fantastik serisi 'Yerdeniz', Arşipelago adlı bir dünyada geçen büyülü bir hikayeyi anlatır. Büyü, macera ve karakter gelişimi üzerine derin bir inceleme sunar.",
+        "'Yerdeniz Serisi', Le Guin'in zengin dünyası ve derin karakterleriyle dolu, edebiyat dünyasının en önemli fantastik serilerinden biridir. Karakterlerin içsel yolculukları ve evrenin sırları okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Göçebe",
+      "patterns": ["göçebe hakkında bilgi", "göçebe nedir", "göçebe konusu", "göçebe özeti"],
+      "responses": [
+        "Veronica Rossi'nin distopik genç yetişkin serisi 'Göçebe', bir genç kızın post-apokaliptik dünyada hayatta kalma mücadelesini anlatır. Aşk, macera ve hayatta kalma temasını işler.",
+        "'Göçebe', Rossi'nin heyecan verici anlatımı ve etkileyici karakterleriyle dolu, çarpıcı bir distopik genç yetişkin serisidir. Yeniden yapılanma sonrası dünyada hayatta kalmaya çalışan gençlerin hikayesini anlatır."
+      ]
+    },
+    {
+      "tag": "Robinson Crusoe",
+      "patterns": ["robinson crusoe hakkında bilgi", "robinson crusoe nedir", "robinson crusoe konusu", "robinson crusoe özeti"],
+      "responses": [
+        "Daniel Defoe'un klasik eseri 'Robinson Crusoe', bir adamın ıssız bir adada mahsur kalmasını ve hayatta kalma mücadelesini anlatır. İnsanın doğayla mücadelesi ve izole bir yaşamın getirdiği zorluklar üzerine derin bir hikaye.",
+        "'Robinson Crusoe', Defoe'un insanın içsel gücünü ve dayanıklılığını konu alan, klasik bir macera romanıdır. Robinson'un adada geçirdiği yıllar boyunca yaşadığı deneyimler okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "80 Günde Devr-i Alem",
+      "patterns": ["80 günde devr-i alem hakkında bilgi", "80 günde devr-i alem nedir", "80 günde devr-i alem konusu", "80 günde devr-i alem özeti"],
+      "responses": [
+        "Jules Verne'in klasik macera romanı '80 Günde Devr-i Alem', Phileas Fogg'un dünya turu macerasını anlatır. Zamanla yarışan bir adamın heyecan dolu hikayesi.",
+        "'80 Günde Devr-i Alem', Verne'in bilim kurgu ve macera unsurlarını harmanlayarak oluşturduğu, sürükleyici bir romanıdır. Fogg'un dünya turu sırasında karşılaştığı engeller ve yaşadığı maceralar okuyucuyu heyecanlandırır."
+      ]
+    },
+    {
+      "tag": "Vahşetin Çağrısı",
+      "patterns": ["vahşetin çağrısı hakkında bilgi", "vahşetin çağrısı nedir", "vahşetin çağrısı konusu", "vahşetin çağrısı özeti"],
+      "responses": [
+        "Jack London'ın klasik romanı 'Vahşetin Çağrısı', bir köpeğin vahşi doğada hayatta kalma mücadelesini konu alır. Doğanın acımasızlığı ve insan ile hayvan arasındaki ilişki üzerine derinlemesine bir hikaye.",
+        "'Vahşetin Çağrısı', London'ın etkileyici doğa tasviri ve derin karakter analiziyle dolu, unutulmaz bir macera romanıdır. Köpeğin içsel mücadelesi ve doğada geçirdiği zamanın etkileyici tasviri okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Indiana Jones Serisi",
+      "patterns": ["indiana jones serisi hakkında bilgi", "indiana jones serisi nedir", "indiana jones serisi konusu", "indiana jones serisi özeti"],
+      "responses": [
+        "Steven Spielberg'in yönettiği macera serisi 'Indiana Jones', arkeolog ve maceraperest Indiana Jones'un dünyayı dolaşarak kayıp hazineleri aramasını konu alır. Heyecan dolu maceralar ve tehlikeli engellerle dolu bir seridir.",
+        "'Indiana Jones Serisi', macera ve heyecan dolu sahneleriyle ünlü, efsanevi bir seridir. Indy'nin karşılaştığı zorluklar, keşifler ve entrikalar okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Macera Avcıları",
+      "patterns": ["macera avcıları hakkında bilgi", "macera avcıları nedir", "macera avcıları konusu", "macera avcıları özeti"],
+      "responses": [
+        "Clive Cussler'ın macera serisi 'Macera Avcıları', denizaltı avcısı Dirk Pitt'in maceralarını konu alır. Gizemli batıkları keşfetme, tehlikeli düşmanlarla mücadele etme ve dünya dışı tehditlerle karşılaşma üzerine heyecan dolu hikayeler.",
+        "'Macera Avcıları', Cussler'ın heyecan verici anlatımı ve zengin dünyasıyla dolu, sürükleyici bir macera serisidir. Dirk Pitt'in maceraları ve keşifleri okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Denizler Altında Yirmi Bir Fersah",
+      "patterns": ["denizler altında yirmi bir fersah hakkında bilgi", "denizler altında yirmi bir fersah nedir", "denizler altında yirmi bir fersah konusu", "denizler altında yirmi bir fersah özeti"],
+      "responses": [
+        "Jules Verne'in klasik macera romanı 'Denizler Altında Yirmi Bir Fersah', Kaptan Nemo'nun gizemli denizaltı Nautilus ile okyanusların derinliklerindeki keşiflerini anlatır. Bilim kurgu ve macera dolu bir hikayedir.",
+        "'Denizler Altında Yirmi Bir Fersah', Verne'in hayal gücünün sınırlarını zorlayan, sürükleyici bir macera romanıdır. Nemo'nun denizaltıyla keşifleri ve Nautilus mürettebatının maceraları okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Kaptan Grant'ın Çocukları",
+      "patterns": ["kaptan grantın çocukları hakkında bilgi", "kaptan grantın çocukları nedir", "kaptan grantın çocukları konusu", "kaptan grantın çocukları özeti"],
+      "responses": [
+        "Jules Verne'in macera romanı 'Kaptan Grant'ın Çocukları', Kaptan Grant'ın gemisinin kaybolması ve onun çocukları Dick ve Mary'nin maceralı arayışını konu alır. Keşifler, tehlikeler ve dostluklarla dolu bir hikayedir.",
+        "'Kaptan Grant'ın Çocukları', Verne'in etkileyici anlatımı ve heyecan verici olay örgüsüyle dolu, klasik bir macera romanıdır. Dick ve Mary'nin maceralı yolculuğu okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Moby Dick",
+      "patterns": ["moby dick hakkında bilgi", "moby dick nedir", "moby dick konusu", "moby dick özeti"],
+      "responses": [
+        "Herman Melville'in klasik romanı 'Moby Dick', denizci Ishmael'in Kaptan Ahab önderliğindeki balina avı gemisi Pequod'a katılması ve büyük beyaz balina Moby Dick'i arayışını anlatır. İnsanın doğayla olan mücadelesi ve takıntılar üzerine derin bir hikaye.",
+        "'Moby Dick', Melville'in büyüleyici anlatımı ve sembolik derinliğiyle dolu, edebiyat dünyasının önemli eserlerinden biridir. Ahab'ın takıntılı avı ve denizcilik hayatının tasviri okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Tarzan",
+      "patterns": ["tarzan hakkında bilgi", "tarzan nedir", "tarzan konusu", "tarzan özeti"],
+      "responses": [
+        "Edgar Rice Burroughs'ün klasik karakteri 'Tarzan', ormanda büyüyen bir adamın insan dünyasıyla olan temasını ve maceralarını anlatır. Vahşi doğa, macera ve insanın içsel yolculuğu üzerine derin bir hikaye.",
+        "'Tarzan', Burroughs'ün heyecan verici anlatımı ve vahşi doğayla dolu, eşsiz bir macera serisidir. Tarzan'ın insanlıkla kurduğu ilişki ve yaşadığı maceralar okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Aşk ve Gurur",
+      "patterns": ["aşk ve gurur hakkında bilgi", "aşk ve gurur nedir", "aşk ve gurur konusu", "aşk ve gurur özeti"],
+      "responses": [
+        "Jane Austen'in klasik romanı 'Aşk ve Gurur', Elizabeth Bennet ve Mr. Darcy arasındaki romantik ilişkiyi ve 19. yüzyıl İngiltere toplumunun sosyal normlarını ele alır. Aşk, gurur ve önyargı üzerine derin bir inceleme.",
+        "'Aşk ve Gurur', Austen'ın keskin gözlem yeteneği ve incelikli karakter tasvirleriyle dolu, unutulmaz bir romantik romanıdır. Bennet ailesinin kızlarıyla giriştikleri aşk maceraları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Uğultulu Tepeler",
+      "patterns": ["uğultulu tepeler hakkında bilgi", "uğultulu tepeler nedir", "uğultulu tepeler konusu", "uğultulu tepeler özeti"],
+      "responses": [
+        "Emily Brontë'nin klasik romanı 'Uğultulu Tepeler', Catherine Earnshaw ve Heathcliff'in tutkulu ama yıkıcı aşkını ve onların yaşadığı trajik hikayeyi anlatır. İntikam, aşk ve acı dolu bir hikaye.",
+        "'Uğultulu Tepeler', Brontë'nin yoğun atmosferi ve karmaşık karakterleriyle dolu, unutulmaz bir romantik romanıdır. Yeraltı duyguları ve tutkularla dolu bu hikaye okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Bir Uğraşın Sonu",
+      "patterns": ["bir uğraşın sonu hakkında bilgi", "bir uğraşın sonu nedir", "bir uğraşın sonu konusu", "bir uğraşın sonu özeti"],
+      "responses": [
+        "Leo Tolstoy'un klasik romanı 'Bir Uğraşın Sonu', Rus aristokratlarının ve köylülerin yaşamlarını ele alırken, ahlaki ve felsefi sorunlar üzerine düşünür. İnsanın arayışı ve anlamı üzerine derin bir inceleme.",
+        "'Bir Uğraşın Sonu', Tolstoy'un derin karakter analizi ve evrensel temaları işleyişiyle dolu, edebiyat dünyasının en önemli eserlerinden biridir. İnsanın içsel çatışmaları ve arayışı okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Senden Önce Ben",
+      "patterns": ["senden önce ben hakkında bilgi", "senden önce ben nedir", "senden önce ben konusu", "senden önce ben özeti"],
+      "responses": [
+        "Jojo Moyes'in duygusal romanı 'Senden Önce Ben', engelli Will Traynor ile bakıcısı Lou Clark arasındaki ilişkiyi anlatır. Aşk, arkadaşlık ve yaşamın anlamı üzerine derin bir hikaye.",
+        "'Senden Önce Ben', Moyes'in etkileyici anlatımı ve karakter gelişimiyle dolu, dokunaklı bir romantik romanıdır. Will ve Lou'nun yaşadığı duygusal yolculuk okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Ugly Love",
+      "patterns": ["ugly love hakkında bilgi", "ugly love nedir", "ugly love konusu", "ugly love özeti"],
+      "responses": [
+        "Colleen Hoover'ın romanı 'Ugly Love', Tate ve Miles arasındaki duygusal ve tutkulu ilişkiyi anlatır. Geçmişteki travmalarla yüzleşme ve aşkın iyileştirici gücü üzerine bir hikayedir.",
+        "'Ugly Love', Hoover'ın duygusal derinliği ve karakter odaklı anlatımıyla dolu, çarpıcı bir romantik romanıdır. Tate ve Miles'ın ilişkisi okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Melek",
+      "patterns": ["melek hakkında bilgi", "melek nedir", "melek konusu", "melek özeti"],
+      "responses": [
+        "Khaled Hosseini'nin romanı 'Melek', Afganistan'da yaşanan trajik olayları ve bir ailenin üzerindeki etkilerini anlatır. Dostluk, ihanet ve umut dolu bir hikayedir.",
+        "'Melek', Hosseini'nin dokunaklı anlatımı ve etkileyici karakterleriyle dolu, duygusal bir romanıdır. Afganistan'ın tarihine ve insanlarının yaşadığı zorluklara ışık tutar."
+      ]
+    },
+    {
+      "tag": "Pride and Prejudice",
+      "patterns": ["pride and prejudice hakkında bilgi", "pride and prejudice nedir", "pride and prejudice konusu", "pride and prejudice özeti"],
+      "responses": [
+        "Jane Austen'in klasik romanı 'Pride and Prejudice', Elizabeth Bennet ve Mr. Darcy arasındaki romantik ilişkiyi ve 19. yüzyıl İngiltere toplumunun sosyal normlarını ele alır. Aşk, gurur ve önyargı üzerine derin bir inceleme.",
+        "'Pride and Prejudice', Austen'ın keskin gözlem yeteneği ve incelikli karakter tasvirleriyle dolu, unutulmaz bir romantik romanıdır. Bennet ailesinin kızlarıyla giriştikleri aşk maceraları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Me Before You",
+      "patterns": ["me before you hakkında bilgi", "me before you nedir", "me before you konusu", "me before you özeti"],
+      "responses": [
+        "Jojo Moyes'in duygusal romanı 'Me Before You', engelli Will Traynor ile bakıcısı Lou Clark arasındaki ilişkiyi anlatır. Aşk, arkadaşlık ve yaşamın anlamı üzerine derin bir hikaye.",
+        "'Me Before You', Moyes'in etkileyici anlatımı ve karakter gelişimiyle dolu, dokunaklı bir romantik romanıdır. Will ve Lou'nun yaşadığı duygusal yolculuk okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Sütunların Düşüşü",
+      "patterns": ["sütunların düşüşü hakkında bilgi", "sütunların düşüşü nedir", "sütunların düşüşü konusu", "sütunların düşüşü özeti"],
+      "responses": [
+        "Ken Follett'in tarihi romanı 'Sütunların Düşüşü', Orta Çağ'da geçen bir hikayeyi anlatır. Gotik katedrallerin yapımı sırasında yaşanan entrikalar ve aşklar üzerine bir hikayedir.",
+        "'Sütunların Düşüşü', Follett'in detaylı tarih tasviri ve etkileyici karakterleriyle dolu, tarihi bir romanıdır. Gotik mimarinin ve Orta Çağ Avrupa'sının atmosferini okuyucuya aktarır."
+      ]
+    },
+    {
+      "tag": "Afgan Kızı",
+      "patterns": ["afgan kızı hakkında bilgi", "afgan kızı nedir", "afgan kızı konusu", "afgan kızı özeti"],
+      "responses": [
+        "Khaled Hosseini'nin romanı 'Afgan Kızı', iki kadının yaşamlarını ve Afganistan'ın geçirdiği değişimleri ele alır. Aşk, arkadaşlık ve aile bağları üzerine derin bir hikaye.",
+        "'Afgan Kızı', Hosseini'nin etkileyici anlatımı ve karmaşık karakterleriyle dolu, duygusal bir romanıdır. Mariam ve Laila'nın hayatlarındaki zorluklar ve dayanışma okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Yabancı",
+      "patterns": ["yabancı hakkında bilgi", "yabancı nedir", "yabancı konusu", "yabancı özeti"],
+      "responses": [
+        "Albert Camus'nün romanı 'Yabancı', Fransız Cezayir'inde yaşayan bir adamın hayatını ve toplumla olan ilişkisini ele alır. Absürt edebiyatın önde gelen eserlerinden biridir.",
+        "'Yabancı', Camus'nün sade ve etkileyici anlatımıyla dolu, derin bir felsefi romanıdır. Merseault'un duyarsızlığı ve toplumla kurduğu ilişki okuyucuyu düşündürür."
+      ]
+    },
+    {
+      "tag": "Işık Her Yerde",
+      "patterns": ["ışık her yerde hakkında bilgi", "ışık her yerde nedir", "ışık her yerde konusu", "ışık her yerde özeti"],
+      "responses": [
+        "Anthony Doerr'in romanı 'Işık Her Yerde', II. Dünya Savaşı sırasında Fransa ve Almanya'da geçen iki ayrı hikayeyi anlatır. Savaşın acımasızlığı ve insanın içsel gücü üzerine derinlemesine bir hikaye.",
+        "'Işık Her Yerde', Doerr'in etkileyici anlatımı ve duygusal derinliğiyle dolu, unutulmaz bir tarihi romandır. Marie-Laure ve Werner'in yaşadığı zorluklar okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Mağara Ayıları",
+      "patterns": ["mağara ayıları hakkında bilgi", "mağara ayıları nedir", "mağara ayıları konusu", "mağara ayıları özeti"],
+      "responses": [
+        "Jean M. Auel'in 'Mağara Ayıları' serisi, tarih öncesi dönemde yaşayan Ayla adındaki genç bir kadının maceralarını anlatır. Doğa, hayatta kalma ve insanın evrimi üzerine bir seridir.",
+        "'Mağara Ayıları', Auel'in detaylı tarih tasviri ve yaratıcı evreniyle dolu, eşsiz bir tarih öncesi macera serisidir. Ayla'nın yaşadığı dönemin atmosferi ve insanlık hikayesi okuyucuyu büyüler."
+      ]
+    },
+    {
+      "tag": "Pompeii",
+      "patterns": ["pompeii hakkında bilgi", "pompeii nedir", "pompeii konusu", "pompeii özeti"],
+      "responses": [
+        "Robert Harris'in tarihî romanı 'Pompeii', Antik Roma döneminde yaşanan Pompeii şehrinin yanardağ patlaması ve çöküşünü anlatır. Tarihî bir olayın dramatik bir şekilde işlendiği bir hikaye.",
+        "'Pompeii', Harris'in detaylı tarih tasviri ve gerilim dolu atmosferiyle dolu, etkileyici bir tarihî romandır. Karakterlerin yaşadığı trajik olaylar okuyucuyu içine çeker."
+      ]
+    },
+    {
+      "tag": "Beyaz Kraliçe",
+      "patterns": ["beyaz kraliçe hakkında bilgi", "beyaz kraliçe nedir", "beyaz kraliçe konusu", "beyaz kraliçe özeti"],
+      "responses": [
+        "Philippa Gregory'nin tarihî romanı 'Beyaz Kraliçe', İngiltere'nin Orta Çağ'daki kraliçesi Elizabeth Woodville'in hikayesini anlatır. İngiliz tahtının karmaşık politik entrikaları ve romantizmi üzerine bir hikaye.",
+        "'Beyaz Kraliçe', Gregory'nin detaylı tarih tasviri ve karmaşık karakterlerle dolu, etkileyici bir tarihî romanıdır. Woodville'in yaşadığı zorluklar ve saray entrikaları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Barok Döngüsü",
+      "patterns": ["barok döngüsü hakkında bilgi", "barok döngüsü nedir", "barok döngüsü konusu", "barok döngüsü özeti"],
+      "responses": [
+        "Neal Stephenson'ın bilim kurgu romanı 'Barok Döngüsü', 17. yüzyılın başlarında Avrupa'da geçen bir macerayı konu alır. Bilim, tarih ve felsefe üzerine derinlemesine bir hikaye.",
+        "'Barok Döngüsü', Stephenson'ın yaratıcı evreni ve karmaşık olay örgüsüyle dolu, sürükleyici bir bilim kurgu romanıdır. Karakterlerin yaşadığı maceralar okuyucuyu içine çeker."
+      ]
+    },
+    {
+      "tag": "Becoming",
+      "patterns": ["becoming hakkında bilgi", "becoming nedir", "becoming konusu", "becoming özeti"],
+      "responses": [
+        "Michelle Obama'nın otobiyografisi 'Becoming', eski ABD Başkanı Barack Obama'nın eşi Michelle Obama'nın hayatını ve kariyerini anlatır. Birinci elden bir Amerikan hikayesi ve güçlü bir kadının yolculuğu üzerine bir kitap.",
+        "'Becoming', Obama'nın samimi anlatımı ve ilham verici hikayesiyle dolu, etkileyici bir otobiyografidir. Michelle Obama'nın hayatındaki dönüm noktaları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Educated",
+      "patterns": ["educated hakkında bilgi", "educated nedir", "educated konusu", "educated özeti"],
+      "responses": [
+        "Tara Westover'in otobiyografisi 'Educated', ailesinin dini fanatizmi ve kendi kendine eğitim alarak üniversiteye gitme mücadelesini anlatır. Kendini bulma ve hayatta kalma üzerine etkileyici bir hikaye.",
+        "'Educated', Westover'in etkileyici anlatımı ve inanılmaz yaşam hikayesiyle dolu, dokunaklı bir otobiyografidir. Westover'ın karşılaştığı zorluklar ve başarı hikayesi okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "I Know Why the Caged Bird Sings",
+      "patterns": ["i know why the caged bird sings hakkında bilgi", "i know why the caged bird sings nedir", "i know why the caged bird sings konusu", "i know why the caged bird sings özeti"],
+      "responses": [
+        "Maya Angelou'nun otobiyografisi 'I Know Why the Caged Bird Sings', çocukluğunu ve ergenlik yıllarını anlatır. Irksal ayrımcılık ve kadın hakları üzerine derinlemesine bir inceleme.",
+        "'I Know Why the Caged Bird Sings', Angelou'nun samimi anlatımı ve güçlü mesajlarıyla dolu, etkileyici bir otobiyografidir. Angelou'nun yaşadığı zorluklar ve güçlü duruşu okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Anne Frank'ın Hatıra Defteri",
+      "patterns": ["anne frankın hatıra defteri hakkında bilgi", "anne frankın hatıra defteri nedir", "anne frankın hatıra defteri konusu", "anne frankın hatıra defteri özeti"],
+      "responses": [
+        "Anne Frank'ın Günlüğü, II. Dünya Savaşı sırasında Nazi Almanyası işgali altındaki Hollanda'da yaşayan Yahudi kız Anne Frank'ın günlüklerinden oluşur. Savaşın ve ırkçılığın etkilerini içeren dokunaklı bir hatıra.",
+        "Anne Frank'ın Hatıra Defteri, II. Dünya Savaşı sırasında Nazi zulmünden kaçan bir ailenin yaşamını anlatır. Anne Frank'ın samimi yazıları, savaşın insanlar üzerindeki etkisini gözler önüne serer."
+      ]
+    },
+    {
+      "tag": "Angela's Ashes",
+      "patterns": ["angela's ashes hakkında bilgi", "angela's ashes nedir", "angela's ashes konusu", "angela's ashes özeti"],
+      "responses": [
+        "Frank McCourt'un otobiyografisi 'Angela's Ashes', yoksul bir İrlanda ailesinin hikayesini anlatır. İrlanda'nın yoksulluğu ve aile bağları üzerine dokunaklı bir hikaye.",
+        "'Angela's Ashes', McCourt'un samimi anlatımı ve çocukluk anılarıyla dolu, etkileyici bir otobiyografidir. McCourt'un zorlu geçmişi ve hayata tutunma çabası okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "The Diary of a Young Girl",
+      "patterns": ["the diary of a young girl hakkında bilgi", "the diary of a young girl nedir", "the diary of a young girl konusu", "the diary of a young girl özeti"],
+      "responses": [
+        "Anne Frank'ın Günlüğü, II. Dünya Savaşı sırasında Nazi Almanyası işgali altındaki Hollanda'da yaşayan Yahudi kız Anne Frank'ın günlüklerinden oluşur. Savaşın ve ırkçılığın etkilerini içeren dokunaklı bir hatıra.",
+        "Anne Frank'ın Hatıra Defteri, II. Dünya Savaşı sırasında Nazi zulmünden kaçan bir ailenin yaşamını anlatır. Anne Frank'ın samimi yazıları, savaşın insanlar üzerindeki etkisini gözler önüne serer."
+      ]
+    },
+    {
+      "tag": "Born a Crime",
+      "patterns": ["born a crime hakkında bilgi", "born a crime nedir", "born a crime konusu", "born a crime özeti"],
+      "responses": [
+        "Trevor Noah'ın otobiyografisi 'Born a Crime', Güney Afrika'da ırksal ayrımcılığın hüküm sürdüğü bir dönemde yetişen Trevor Noah'ın hayatını anlatır. Irkçılık ve aile bağları üzerine derin bir hikaye.",
+        "'Born a Crime', Noah'ın esprili anlatımı ve çarpıcı yaşam hikayesiyle dolu, etkileyici bir otobiyografidir. Noah'ın zorlu geçmişi ve başarı hikayesi okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Steve Jobs",
+      "patterns": ["steve jobs hakkında bilgi", "steve jobs nedir", "steve jobs konusu", "steve jobs özeti"],
+      "responses": [
+        "Walter Isaacson'un biyografisi 'Steve Jobs', Apple'ın kurucularından Steve Jobs'un hayatını ve iş dünyasındaki etkisini anlatır. Yaratıcılık, liderlik ve teknoloji üzerine derinlemesine bir portre.",
+        "'Steve Jobs', Isaacson'ın kapsamlı araştırması ve detaylı anlatımıyla dolu, etkileyici bir biyografidir. Jobs'un yenilikçi ruhu ve liderlik tarzı okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Alexander Hamilton",
+      "patterns": ["alexander hamilton hakkında bilgi", "alexander hamilton nedir", "alexander hamilton konusu", "alexander hamilton özeti"],
+      "responses": [
+        "Ron Chernow'un biyografisi 'Alexander Hamilton', Amerikan Bağımsızlık Savaşı'nın kahramanlarından biri olan Alexander Hamilton'un hayatını ve etkisini anlatır. Amerikan tarihi üzerine derin bir portre.",
+        "'Alexander Hamilton', Chernow'un detaylı araştırması ve canlı anlatımıyla dolu, etkileyici bir biyografidir. Hamilton'un politik kariyeri ve Amerikan tarihindeki rolü okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Unbroken",
+      "patterns": ["unbroken hakkında bilgi", "unbroken nedir", "unbroken konusu", "unbroken özeti"],
+      "responses": [
+        "Laura Hillenbrand'in kitabı 'Unbroken', II. Dünya Savaşı sırasında hayatta kalan Louis Zamperini'nin inanılmaz hikayesini anlatır. Dayanıklılık, umut ve insanın iç gücü üzerine etkileyici bir hikaye.",
+        "'Unbroken', Hillenbrand'in detaylı araştırması ve sürükleyici anlatımıyla dolu, etkileyici bir tarihî hikayedir. Zamperini'nin yaşadığı zorluklar ve hayatta kalma mücadelesi okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Elon Musk",
+      "patterns": ["elon musk hakkında bilgi", "elon musk nedir", "elon musk konusu", "elon musk özeti"],
+      "responses": [
+        "Ashlee Vance'in biyografisi 'Elon Musk', Tesla ve SpaceX gibi şirketlerin kurucusu olan Elon Musk'un hayatını ve vizyonunu anlatır. Yenilik, girişimcilik ve teknoloji üzerine bir portre.",
+        "'Elon Musk', Vance'in detaylı araştırması ve ilham verici anlatımıyla dolu, etkileyici bir biyografidir. Musk'ın vizyoner liderliği ve teknolojiye olan katkıları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Tina Fey",
+      "patterns": ["tina fey hakkında bilgi", "tina fey nedir", "tina fey konusu", "tina fey özeti"],
+      "responses": [
+        "Tina Fey'in otobiyografisi 'Bossypants', ünlü komedyen ve yazar Tina Fey'in hayatını ve kariyerini anlatır. Mizah, kadınların iş dünyasındaki yerini ve komedi üzerine bir portre.",
+        "'Bossypants', Fey'in esprili anlatımı ve mizahi tarzıyla dolu, eğlenceli bir otobiyografidir. Fey'in komedi kariyeri ve kadınların güçlenmesi üzerine düşünceleri okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Michelle Obama",
+      "patterns": ["michelle obama hakkında bilgi", "michelle obama nedir", "michelle obama konusu", "michelle obama özeti"],
+      "responses": [
+        "Michelle Obama'nın otobiyografisi 'Becoming', eski ABD Başkanı Barack Obama'nın eşi Michelle Obama'nın hayatını ve kariyerini anlatır. Birinci elden bir Amerikan hikayesi ve güçlü bir kadının yolculuğu üzerine bir kitap.",
+        "'Becoming', Obama'nın samimi anlatımı ve ilham verici hikayesiyle dolu, etkileyici bir otobiyografidir. Michelle Obama'nın hayatındaki dönüm noktaları okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Malcolm X",
+      "patterns": ["malcolm x hakkında bilgi", "malcolm x nedir", "malcolm x konusu", "malcolm x özeti"],
+      "responses": [
+        "Alex Haley'in biyografisi 'The Autobiography of Malcolm X', Malcolm X'in hayatını ve etkisini anlatır. Siyah hakları mücadelesi ve ırksal eşitlik üzerine derin bir portre.",
+        "'The Autobiography of Malcolm X', Haley'in etkileyici anlatımı ve Malcolm X'in etkileyici yaşam hikayesiyle dolu, önemli bir otobiyografidir. Malcolm X'in dönüşümü ve felsefesi okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Anne Frank",
+      "patterns": ["anne frank hakkında bilgi", "anne frank nedir", "anne frank konusu", "anne frank özeti"],
+      "responses": [
+        "Anne Frank'ın Günlüğü, II. Dünya Savaşı sırasında Nazi Almanyası işgali altındaki Hollanda'da yaşayan Yahudi kız Anne Frank'ın günlüklerinden oluşur. Savaşın ve ırkçılığın etkilerini içeren dokunaklı bir hatıra.",
+        "Anne Frank'ın Hatıra Defteri, II. Dünya Savaşı sırasında Nazi zulmünden kaçan bir ailenin yaşamını anlatır. Anne Frank'ın samimi yazıları, savaşın insanlar üzerindeki etkisini gözler önüne serer."
+      ]
+    },
+    {
+      "tag": "Nelson Mandela",
+      "patterns": ["nelson mandela hakkında bilgi", "nelson mandela nedir", "nelson mandela konusu", "nelson mandela özeti"],
+      "responses": [
+        "Nelson Mandela'nın otobiyografisi 'Long Walk to Freedom', Güney Afrika'daki ırk ayrımcılığına karşı verdiği mücadeleyi ve özgürlük için savaşını anlatır. Adalet, özgürlük ve insan hakları üzerine derin bir portre.",
+        "'Long Walk to Freedom', Mandela'nın etkileyici anlatımı ve mücadele dolu yaşam hikayesiyle dolu, etkileyici bir otobiyografidir. Mandela'nın özgürlük mücadelesi ve barışçıl liderliği okuyucuyu etkiler."
+      ]
+    },
+    {
+      "tag": "Visible Learning",
+      "patterns": ["visible learning hakkında bilgi", "visible learning nedir", "visible learning konusu", "visible learning özeti"],
+      "responses": [
+        "John Hattie'nin kitabı 'Visible Learning', öğrenmenin görünür olmasının önemini ve etkisini inceler. Eğitimde etkili stratejiler ve öğrenci başarısını artırmak için kanıta dayalı yaklaşımlar üzerine bir kitap.",
+        "'Visible Learning', Hattie'nin kapsamlı araştırması ve eğitim pratiğine katkısıyla dolu, önemli bir kitaptır. Eğitimdeki etkili uygulamalar ve öğrenme süreci üzerine bilimsel bir bakış açısı sunar."
+      ]
+    },
+    {
+      "tag": "Pedagogy of the Oppressed",
+      "patterns": ["pedagogy of the oppressed hakkında bilgi", "pedagogy of the oppressed nedir", "pedagogy of the oppressed konusu", "pedagogy of the oppressed özeti"],
+      "responses": [
+        "Paulo Freire'in kitabı 'Pedagogy of the Oppressed', eğitimde özgürleştirici bir yaklaşımın önemini vurgular. Toplumsal adalet, eşitlik ve eğitim üzerine derin bir felsefi inceleme.",
+        "'Pedagogy of the Oppressed', Freire'in çağdaş eğitim sistemlerini sorgulayan ve alternatif bir pedagoji sunan, etkileyici bir kitaptır. Öğrencilerin aktif katılımını ve özgürlüğünü ön plana çıkarır."
+      ]
+    },
+    {
+      "tag": "Mindset",
+      "patterns": ["mindset hakkında bilgi", "mindset nedir", "mindset konusu", "mindset özeti"],
+      "responses": [
+        "Carol S. Dweck'in kitabı 'Mindset', başarı ve başarısızlık arasındaki farkı yaratan zihniyetin önemini inceler. Sabit ve gelişime açık zihniyetler arasındaki farklar üzerine bir kitap.",
+        "'Mindset', Dweck'in derinlemesine araştırması ve pratik örnekleriyle dolu, etkileyici bir kitaptır. Zihniyetin nasıl değişebileceği ve potansiyelin nasıl açığa çıkarılabileceği üzerine önemli bir çalışmadır."
+      ]
+    },
+    {
+      "tag": "The Element",
+      "patterns": ["the element hakkında bilgi", "the element nedir", "the element konusu", "the element özeti"],
+      "responses": [
+        "Ken Robinson'un kitabı 'The Element', insanların tutku ve yeteneklerini keşfetme sürecini inceler. Yaratıcılık, motivasyon ve kişisel gelişim üzerine ilham verici bir kitap.",
+        "'The Element', Robinson'un özgün bakış açısı ve gerçek hayattan örnekleriyle dolu, etkileyici bir kitaptır. İnsanların içsel potansiyellerini nasıl keşfedebileceği üzerine önemli bir çalışmadır."
+      ]
+    },
+    {
+      "tag": "Why Don't Students Like School",
+      "patterns": ["why don't students like school hakkında bilgi", "why don't students like school nedir", "why don't students like school konusu", "why don't students like school özeti"],
+      "responses": [
+        "Daniel T. Willingham'in kitabı 'Why Don't Students Like School?', öğrenme psikolojisi ve eğitimde etkili stratejiler üzerine bir kitaptır. Öğrencilerin neden okulu sevmedikleri ve nasıl daha iyi öğrenebilecekleri üzerine bir inceleme.",
+        "'Why Don't Students Like School?', Willingham'in açıklayıcı anlatımı ve pratik örnekleriyle dolu, önemli bir eğitim kitabıdır. Eğitimcilerin öğrenci motivasyonunu artırma ve öğrenmeyi daha etkili hale getirme konusunda ipuçları sunar."
+      ]
+    },
+    {
+      "tag": "Multiple Intelligences",
+      "patterns": ["multiple intelligences hakkında bilgi", "multiple intelligences nedir", "multiple intelligences konusu", "multiple intelligences özeti"],
+      "responses": [
+        "Howard Gardner'ın kitabı 'Multiple Intelligences', zekânın çeşitli biçimlerini ve insanların farklı yetenekleri hakkındaki teorisini inceler. Eğitimde bireyselleştirme ve öğrenme çeşitliliği üzerine bir çalışma.",
+        "'Multiple Intelligences', Gardner'ın kapsamlı araştırması ve örnekleriyle dolu, etkileyici bir kitaptır. Zekânın tek boyutlu olmadığını ve herkesin farklı öğrenme tarzlarına sahip olduğunu vurgular."
+      ]
+    },
+    {
+      "tag": "The Hundred Languages of Children",
+      "patterns": ["the hundred languages of children hakkında bilgi", "the hundred languages of children nedir", "the hundred languages of children konusu", "the hundred languages of children özeti"],
+      "responses": [
+        "Carolyn Edwards, Lella Gandini ve George Forman'ın kitabı 'The Hundred Languages of Children', Reggio Emilia yaklaşımını ve çocukların çoklu ifade biçimlerini inceler. Çocuk merkezli eğitim ve sanat üzerine bir çalışma.",
+        "'The Hundred Languages of Children', Reggio Emilia pedagojisinin derinlemesine incelendiği, ilham verici bir kitaptır. Çocukların yaratıcılığını ve ifade gücünü ön plana çıkarır."
+      ]
+    },
+    {
+      "tag": "Classroom Instruction That Works",
+      "patterns": ["classroom instruction that works hakkında bilgi", "classroom instruction that works nedir", "classroom instruction that works konusu", "classroom instruction that works özeti"],
+      "responses": [
+        "Robert J. Marzano, Debra J. Pickering ve Jane E. Pollock'un kitabı 'Classroom Instruction That Works', öğretmenler için kanıta dayalı öğretim stratejilerini inceler. Etkili sınıf öğretimi ve öğrenme üzerine bir kılavuz.",
+        "'Classroom Instruction That Works', Marzano ve diğer yazarların pratik örnekleriyle dolu, önemli bir eğitim kaynağıdır. Öğretmenlerin öğrenci başarısını artırmak için kanıta dayalı yöntemleri öğrenmelerine yardımcı olur."
+      ]
+    },
+    {
+      "tag": "The Selfish Gene",
+      "patterns": ["the selfish gene hakkında bilgi", "the selfish gene nedir", "the selfish gene konusu", "the selfish gene özeti"],
+      "responses": [
+        "Richard Dawkins'in kitabı 'The Selfish Gene', evrimsel biyolojinin temellerini ve genetik evrim teorisini inceler. Genlerin ve doğal seleksiyonun rolü üzerine bir çalışma.",
+        "'The Selfish Gene', Dawkins'in sade ve etkileyici anlatımıyla dolu, önemli bir bilim kitabıdır. Genlerin hayatta kalma mücadelesinin doğal dünya üzerindeki etkilerini açıklar."
+      ]
+    },
+    {
+      "tag": "The Diversity of Life",
+      "patterns": ["the diversity of life hakkında bilgi", "the diversity of life nedir", "the diversity of life konusu", "the diversity of life özeti"],
+      "responses": [
+        "Edward O. Wilson'ın kitabı 'The Diversity of Life', biyolojik çeşitliliği ve türlerin korunması üzerine bir incelemedir. Biyolojik çeşitlilik krizi ve doğa koruma stratejileri üzerine bir çalışma.",
+        "'The Diversity of Life', Wilson'ın derinlemesine araştırması ve bilimsel bakış açısıyla dolu, önemli bir doğa kitabıdır. Doğal yaşamın çeşitliliğini ve korunmasının önemini vurgular."
+      ]
+    },
+    {
+      "tag": "Silent Spring",
+      "patterns": ["silent spring hakkında bilgi", "silent spring nedir", "silent spring konusu", "silent spring özeti"],
+      "responses": [
+        "Rachel Carson'ın kitabı 'Silent Spring', çevre kirliliğinin ve pestisit kullanımının çevreye ve insan sağlığına olan etkilerini inceler. Çevre koruma ve doğal denge üzerine çığır açan bir kitap.",
+        "'Silent Spring', Carson'ın cesur ve etkileyici anlatımıyla dolu, çevre bilimlerinin klasik eserlerinden biridir. İnsanın doğa üzerindeki etkilerini ve çevre koruma önlemlerinin önemini vurgular."
+      ]
+    },
+    {
+      "tag": "A Brief History of Time",
+      "patterns": ["a brief history of time hakkında bilgi", "a brief history of time nedir", "a brief history of time konusu", "a brief history of time özeti"],
+      "responses": [
+        "Stephen Hawking'in kitabı 'A Brief History of Time', kozmoloji ve evrenin temel prensiplerini anlatır. Zaman, uzay ve evrenin doğası üzerine derinlemesine bir inceleme.",
+        "'A Brief History of Time', Hawking'in karmaşık konuları anlaşılır bir şekilde anlatması ve evrenin gizemlerine ışık tutmasıyla dolu, önemli bir bilim kitabıdır. Evrenin doğası hakkında meraklı okuyucular için essiz bir kaynaktır."
+      ]
+    },
+    {
+      "tag": "Sapiens",
+      "patterns": ["sapiens hakkında bilgi", "sapiens nedir", "sapiens konusu", "sapiens özeti"],
+      "responses": [
+        "Yuval Noah Harari'nin kitabı 'Sapiens', insanlık tarihini ve gelişimini anlatır. İnsan türünün evrimi, kültürü ve toplumsal yapısı üzerine geniş kapsamlı bir inceleme.",
+        "'Sapiens', Harari'nin etkileyici anlatımı ve geniş kapsamlı bakış açısıyla dolu, önemli bir kitaptır. İnsanlığın kökenleri ve tarih boyunca yaşadığı değişimler hakkında derinlemesine bir anlayış sunar."
+      ]
+    },
+    {
+      "tag": "In the Shadow of Man",
+      "patterns": ["in the shadow of man hakkında bilgi", "in the shadow of man nedir", "in the shadow of man konusu", "in the shadow of man özeti"],
+      "responses": [
+        "Jane Goodall'ın kitabı 'In the Shadow of Man', şempanzelerin doğal yaşamını ve sosyal davranışlarını inceler. Doğa gözlemi ve primat araştırmaları üzerine bir çalışma.",
+        "'In the Shadow of Man', Goodall'ın derinlemesine araştırması ve şempanzelerin dünyasına yaptığı dalmalarla dolu, etkileyici bir kitaptır. Doğal yaşamın karmaşıklığını ve şempanzelerin sosyal yapılarını anlatır."
+      ]
+    },
+    {
+      "tag": "Cosmos",
+      "patterns": ["cosmos hakkında bilgi", "cosmos nedir", "cosmos konusu", "cosmos özeti"],
+      "responses": [
+        "Carl Sagan'ın kitabı 'Cosmos', evrenin doğasını ve bilimin keşiflerini anlatır. Uzay bilimi, astronomi ve insanın evrendeki yerine dair kapsamlı bir inceleme.",
+        "'Cosmos', Sagan'ın etkileyici anlatımı ve evrenin gizemlerini açıklamasıyla dolu, önemli bir bilim kitabıdır. Evrenin karmaşıklığına ve bilimin gücüne dair ilham verici bir bakış açısı sunar."
+      ]
+    },
+    {
+      "tag": "A Sand County Almanac",
+      "patterns": ["a sand county almanac hakkında bilgi", "a sand county almanac nedir", "a sand county almanac konusu", "a sand county almanac özeti"],
+      "responses": [
+        "Aldo Leopold'un kitabı 'A Sand County Almanac', doğal dünyayı ve çevre koruma felsefesini anlatır. Doğa gözlemi ve çevre etiği üzerine önemli bir eser.",
+        "'A Sand County Almanac', Leopold'un duyarlı ve düşünceli anlatımıyla dolu, önemli bir doğa kitabıdır. İnsanın doğa üzerindeki etkilerini ve doğal dengeyi korumanın önemini vurgular."
+      ]
+    },
+    {
+      "tag": "Devlet",
+      "patterns": ["devlet hakkında bilgi", "devlet nedir", "devlet konusu", "devlet özeti"],
+      "responses": [
+        "Antik Yunan filozofu Platon'un 'Devlet' adlı eseri, ideal bir toplum yapısını ve yönetim biçimini tartışır. Politika felsefesi ve adalet üzerine derinlemesine bir inceleme.",
+        "'Devlet', Platon'un çarpıcı fikirleri ve ideal toplum tasarımıyla dolu, önemli bir felsefe eseridir. Platon'un adalet ve yönetim konularındaki düşünceleri okuyucuyu derin düşüncelere sevk eder."
+      ]
+    },
+    {
+      "tag": "Nikomakhos'a Etik",
+      "patterns": ["nikomakhosa etik hakkında bilgi", "nikomakhosa etik nedir", "nikomakhosa etik konusu", "nikomakhosa etik özeti"],
+      "responses": [
+        "Antik Yunan filozofu Aristoteles'in 'Nikomakhos'a Etik' adlı eseri, erdem, mutluluk ve ahlak üzerine bir incelemedir. İnsanın iyi yaşamı ve erdemli davranışlar üzerine bir felsefi çalışma.",
+        "'Nikomakhos'a Etik', Aristoteles'in derin düşünceleri ve ahlaki öğretileriyle dolu, önemli bir felsefe eseridir. İyi yaşamın ve mutluluğun kaynaklarını araştırırken insan doğasını derinlemesine inceler."
+      ]
+    },
+    {
+      "tag": "Varlık ve Hiçlik",
+      "patterns": ["varlık ve hiçlik hakkında bilgi", "varlık ve hiçlik nedir", "varlık ve hiçlik konusu", "varlık ve hiçlik özeti"],
+      "responses": [
+        "Jean-Paul Sartre'ın kitabı 'Varlık ve Hiçlik', varoluşçuluk felsefesi üzerine derinlemesine bir incelemedir. İnsanın özgürlüğü, anlam arayışı ve varoluşsal kaygılar üzerine bir çalışma.",
+        "'Varlık ve Hiçlik', Sartre'ın etkileyici anlatımı ve varoluşçu felsefeyi açıklamasıyla dolu, önemli bir felsefe eseridir. İnsanın varoluşsal durumu ve özgürlüğünün önemi hakkında derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "Saf Aklın Eleştirisi",
+      "patterns": ["saf aklın eleştirisi hakkında bilgi", "saf aklın eleştirisi nedir", "saf aklın eleştirisi konusu", "saf aklın eleştirisi özeti"],
+      "responses": [
+        "Immanuel Kant'ın kitabı 'Saf Aklın Eleştirisi', aklın sınırlarını ve bilginin olanaklarını inceler. Metafizik, bilgi teorisi ve epistemoloji üzerine önemli bir felsefi çalışma.",
+        "'Saf Aklın Eleştirisi', Kant'ın karmaşık konuları açıklayıcı bir şekilde ele aldığı, önemli bir felsefe eseridir. Aklın sınırları ve bilginin doğası üzerine derinlemesine bir inceleme sunar."
+      ]
+    },
+    {
+      "tag": "Böyle Buyurdu Zerdüşt",
+      "patterns": ["böyle buyurdu zerdüşt hakkında bilgi", "böyle buyurdu zerdüşt nedir", "böyle buyurdu zerdüşt konusu", "böyle buyurdu zerdüşt özeti"],
+      "responses": [
+        "Friedrich Nietzsche'nin kitabı 'Böyle Buyurdu Zerdüşt', ahlaki değerlerin sorgulanması ve insanın üstün insan olma arayışını ele alır. İnsanlık, ahlak ve güç üzerine derinlemesine bir inceleme.",
+        "'Böyle Buyurdu Zerdüşt', Nietzsche'nin çarpıcı fikirleri ve derin düşünceleriyle dolu, önemli bir felsefe eseridir. İnsanın ahlaki değerlerinin kökenleri ve toplumsal normların eleştirisi üzerine derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "Bilginin Arkeolojisi",
+      "patterns": ["bilginin arkeolojisi hakkında bilgi", "bilginin arkeolojisi nedir", "bilginin arkeolojisi konusu", "bilginin arkeolojisi özeti"],
+      "responses": [
+        "Michel Foucault'un kitabı 'Bilginin Arkeolojisi', bilgi ve iktidar ilişkilerini inceler. Bilginin tarihsel ve toplumsal yapılarını araştırırken insanın bilgiyi nasıl ürettiğini sorgular.",
+        "'Bilginin Arkeolojisi', Foucault'un kavramsal derinliği ve eleştirel yaklaşımıyla dolu, önemli bir felsefe eseridir. Bilgi ve iktidar ilişkilerinin karmaşıklığını ve insanın bilgiyi nasıl şekillendirdiğini anlatır."
+      ]
+    },
+    {
+      "tag": "Yabancı",
+      "patterns": ["yabancı hakkında bilgi", "yabancı nedir", "yabancı konusu", "yabancı özeti"],
+      "responses": [
+        "Albert Camus'nun kitabı 'Yabancı', absürt edebiyatın önemli eserlerinden biridir. İnsanın anlamsızlığı ve yabancılaşma hissi üzerine derinlemesine bir inceleme.",
+        "'Yabancı', Camus'nun etkileyici anlatımı ve absürt edebiyat tarzıyla dolu, önemli bir romanıdır. İnsanın varoluşsal yalnızlığı ve anlamsızlığı üzerine derin düşündürür."
+      ]
+    },
+    {
+      "tag": "İkinci Cins",
+      "patterns": ["ikinci cins hakkında bilgi", "ikinci cins nedir", "ikinci cins konusu", "ikinci cins özeti"],
+      "responses": [
+        "Simone de Beauvoir'un kitabı 'İkinci Cins', kadınların toplumsal konumunu ve cinsiyet eşitsizliğini inceler. Feminizm ve cinsiyet politikaları üzerine önemli bir eser.",
+        "'İkinci Cins', Beauvoir'un çarpıcı analizleri ve feminist bakış açısıyla dolu, önemli bir kitaptır. Kadınların toplumdaki rolü ve cinsiyet eşitsizliğinin kökenleri üzerine derinlemesine düşündürür."
+      ]
+    },
+    {
+      "tag": "Varoluşçu Düşünceler",
+      "patterns": ["varoluşçu düşünceler hakkında bilgi", "varoluşçu düşünceler nedir", "varoluşçu düşünceler konusu", "varoluşçu düşünceler özeti"],
+      "responses": [
+        "Søren Kierkegaard, Jean-Paul Sartre ve diğer varoluşçu filozofların eserlerini içeren bir derleme olan 'Varoluşçu Düşünceler', insanın varoluşsal durumunu ve anlam arayışını ele alır. Varoluşçu felsefe üzerine geniş kapsamlı bir inceleme.",
+        "'Varoluşçu Düşünceler', varoluşçu filozofların çeşitli eserlerini bir araya getirerek insanın varoluşsal durumunu ve anlam arayışını inceler. Varoluşçu felsefenin temel prensiplerini ve farklı yaklaşımlarını sunar."
+      ]
+    },
+    {
+      "tag": "Mitoloji",
+      "patterns": ["mitoloji hakkında bilgi", "mitoloji nedir", "mitoloji konusu", "mitoloji özeti"],
+      "responses": [
+        "Mitoloji, mitlerin ve efsanelerin incelemesiyle ilgilenen bir disiplindir. Antik çağlardan günümüze kadar farklı kültürlerin mitlerini ve kahramanlarını inceler.",
+        "Mitoloji, insanların inanç sistemlerini ve kültürel kimliklerini anlamak için önemli bir kaynaktır. Antik çağlardan günümüze kadar farklı kültürlerin mitlerini ve efsanelerini inceler."
+      ]
+    },
+    {
+      "tag": "Dinin Tarihi",
+      "patterns": ["dinin tarihi hakkında bilgi", "dinin tarihi nedir", "dinin tarihi konusu", "dinin tarihi özeti"],
+      "responses": [
+        "Dinin Tarihi, dinlerin kökenlerini, gelişimini ve yayılmasını inceleyen bir disiplindir. Antik çağlardan günümüze kadar farklı dinlerin tarihini ele alır.",
+        "Dinin Tarihi, insanların inanç sistemlerini ve kültürel değişimlerini anlamak için önemli bir kaynaktır. Antik çağlardan günümüze kadar farklı dinlerin tarihini ve etkileşimlerini inceler."
+      ]
+    },
+    {
+      "tag": "Heroes",
+      "patterns": ["heroes hakkında bilgi", "heroes nedir", "heroes konusu", "heroes özeti"],
+      "responses": [
+        "'Heroes', Joseph Campbell'ın kahramanın yolculuğu üzerine bir incelemedir. Mitoloji ve efsanelerde tekrarlanan temaları ve motifleri analiz eder.",
+        "'Heroes', Campbell'ın kapsamlı araştırması ve farklı kültürlerin mitlerinde ortak olan motifleri ele almasıyla dolu, önemli bir kitaptır. Kahramanın yolculuğu temasını derinlemesine inceler."
+      ]
+    },
+    {
+      "tag": "Ağustosun Sonu",
+      "patterns": ["ağustosun sonu hakkında bilgi", "ağustosun sonu nedir", "ağustosun sonu konusu", "ağustosun sonu özeti"],
+      "responses": [
+        "Turgenev'in 'Ağustosun Sonu' adlı eseri, aşk, tutku ve toplumsal değişim üzerine bir roman olarak bilinir. 19. yüzyıl Rusya'sında geçen bir aşk hikayesi.",
+        "'Ağustosun Sonu', Turgenev'in zarif anlatımı ve derin karakter analizleriyle dolu, edebi bir başyapıttır. Toplumsal değişim ve aşkın karmaşıklığı üzerine derin düşünceler sunar."
+      ]
+    },
+    {
+      "tag": "The Hero with a Thousand Faces",
+      "patterns": ["the hero with a thousand faces hakkında bilgi", "the hero with a thousand faces nedir", "the hero with a thousand faces konusu", "the hero with a thousand faces özeti"],
+      "responses": [
+        "Joseph Campbell'ın 'The Hero with a Thousand Faces' adlı eseri, kahramanın yolculuğu üzerine bir incelemedir. Mitolojik ve edebi eserlerde tekrarlanan motifleri ve temaları analiz eder.",
+        "'The Hero with a Thousand Faces', Campbell'ın kapsamlı araştırması ve kahramanın yolculuğu temasını derinlemesine incelemesiyle dolu, önemli bir kitaptır. Mitolojik ve edebi eserlerde ortak olan motifleri ve temaları ortaya koyar."
+      ]
+    },
+    {
+      "tag": "Dinin Anlamı",
+      "patterns": ["dinin anlamı hakkında bilgi", "dinin anlamı nedir", "dinin anlamı konusu", "dinin anlamı özeti"],
+      "responses": [
+        "Ludwig Feuerbach'ın 'Dinin Anlamı' adlı eseri, dinin kökenlerini ve insan psikolojisi üzerindeki etkilerini inceler. Dinin insan bilincinde nasıl ortaya çıktığını ve geliştiğini araştırır.",
+        "'Dinin Anlamı', Feuerbach'ın derinlemesine analizleri ve dinin psikolojik boyutunu irdelemesiyle dolu, önemli bir felsefe eseridir. Dinin insan zihnindeki rolünü ve etkilerini ele alır."
+      ]
+    },
+    {
+      "tag": "Dinin Anlamı",
+      "patterns": ["dinin anlamı hakkında bilgi", "dinin anlamı nedir", "dinin anlamı konusu", "dinin anlamı özeti"],
+      "responses": [
+        "Ludwig Feuerbach'ın 'Dinin Anlamı' adlı eseri, dinin kökenlerini ve insan psikolojisi üzerindeki etkilerini inceler. Dinin insan bilincinde nasıl ortaya çıktığını ve geliştiğini araştırır.",
+        "'Dinin Anlamı', Feuerbach'ın derinlemesine analizleri ve dinin psikolojik boyutunu irdelemesiyle dolu, önemli bir felsefe eseridir. Dinin insan zihnindeki rolünü ve etkilerini ele alır."
+      ]
+    },
+    {
+      "tag": "Iliad",
+      "patterns": ["iliad hakkında bilgi", "iliad nedir", "iliad konusu", "iliad özeti"],
+      "responses": [
+        "Homeros'un 'Iliad' adlı eseri, Antik Yunan mitolojisindeki Truva Savaşı'nı anlatır. Tanrılar, kahramanlar ve savaşın destansı bir anlatısıdır.",
+        "'Iliad', Homeros'un eşsiz anlatımı ve mitolojik derinliğiyle dolu, klasik bir eserdir. Truva Savaşı'nın epik hikayesini ve insan doğasının karmaşıklığını anlatır."
+      ]
+    },
+    {
+      "tag": "Rigveda",
+      "patterns": ["rigveda hakkında bilgi", "rigveda nedir", "rigveda konusu", "rigveda özeti"],
+      "responses": [
+        "'Rigveda', Hint edebiyatının en eski kutsal metinlerinden biridir. Sanskrit diliyle yazılmış ve Hinduizm'in temel dini metinlerinden biri olarak kabul edilir.",
+        "'Rigveda', Hindistan'ın kültürel ve dini mirasının önemli bir parçasıdır. Tanrılar, dua ve mitolojiyle dolu, derin anlamlar içeren şiirsel bir metindir."
+      ]
+    },
+    {
+      "tag": "Age of Fable",
+      "patterns": ["age of fable hakkında bilgi", "age of fable nedir", "age of fable konusu", "age of fable özeti"],
+      "responses": [
+        "Thomas Bulfinch'in 'Age of Fable' adlı eseri, Antik Yunan ve Roma mitolojisinin derlemesidir. Mitler, tanrılar ve kahramanların hikayelerini anlatır.",
+        "'Age of Fable', Bulfinch'in akıcı anlatımı ve mitolojik hikayeleri derlemesiyle dolu, klasik bir eserdir. Mitolojiye ve antik hikayelere ilgi duyanlar için harika bir kaynaktır."
+      ]
+    },
+    {
+      "tag": "Memleketimden İnsan Manzaraları",
+      "patterns": ["memleketimden insan manzaraları hakkında bilgi", "memleketimden insan manzaraları nedir", "memleketimden insan manzaraları konusu", "memleketimden insan manzaraları özeti"],
+      "responses": [
+        "Reşat Nuri Güntekin'in 'Memleketimden İnsan Manzaraları' adlı eseri, Türk toplumunun çeşitli kesimlerini ve insan ilişkilerini anlatır. Güntekin'in keskin gözlem ve eleştirilerle dolu bir eseri.",
+        "'Memleketimden İnsan Manzaraları', Güntekin'in derin karakter analizleri ve toplumsal eleştirileriyle dolu, önemli bir edebi eserdir. Türk toplumunun çeşitliliğini ve insan ilişkilerinin karmaşıklığını anlatır."
+      ]
+    },
+    {
+      "tag": "Mesnevi",
+      "patterns": ["mesnevi hakkında bilgi", "mesnevi nedir", "mesnevi konusu", "mesnevi özeti"],
+      "responses": [
+        "Mevlana Celaleddin Rumi'nin 'Mesnevi' adlı eseri, İslam tasavvufunun en önemli eserlerinden biridir. Şiirsel ve mistik bir anlatımla aşk, maneviyat ve insanın içsel yolculuğunu anlatır.",
+        "'Mesnevi', Mevlana'nın etkileyici şiirsel diliyle dolu, derin anlamlar içeren bir eserdir. İnsanın manevi yolculuğunu ve ruhsal dönüşümün önemini anlatır."
+      ]
+    },
+    {
+      "tag": "The Complete Poems",
+      "patterns": ["the complete poems hakkında bilgi", "the complete poems nedir", "the complete poems konusu", "the complete poems özeti"],
+      "responses": [
+        "'The Complete Poems', Edgar Allan Poe'nun bütün şiirlerini içeren bir derlemedir. Korku, aşk ve melankoli temaları üzerine yoğunlaşan Poe'nun eserlerini bir araya getirir.",
+        "'The Complete Poems', Poe'nun karanlık ve derin şiirlerinin tamamını bir araya getiren, edebi bir başyapıttır. Poe'nun ölümsüz eserlerini tek bir ciltte toplar."
+      ]
+    },
+    {
+      "tag": "Twenty Love Poems and a Song of Despair",
+      "patterns": ["twenty love poems and a song of despair hakkında bilgi", "twenty love poems and a song of despair nedir", "twenty love poems and a song of despair konusu", "twenty love poems and a song of despair özeti"],
+      "responses": [
+        "Pablo Neruda'nın 'Twenty Love Poems and a Song of Despair' adlı eseri, aşkın ve melankolinin şiirsel bir ifadesidir. Şiirlerinde doğa, aşk ve insanın içsel duygularını işler.",
+        "'Twenty Love Poems and a Song of Despair', Neruda'nın tutkulu ve duygusal şiirlerinden oluşan bir derlemedir. Aşkın çeşitli yönlerini ve insanın iç dünyasındaki karmaşıklığı anlatır."
+      ]
+    },
+    {
+      "tag": "Ariel",
+      "patterns": ["ariel hakkında bilgi", "ariel nedir", "ariel konusu", "ariel özeti"],
+      "responses": [
+        "Sylvia Plath'ın 'Ariel' adlı şiir derlemesi, ölüm, aşk ve kadınlık üzerine yoğunlaşan etkileyici şiirlerden oluşur. Plath'ın çarpıcı dil ve imgelerle dolu eseri.",
+        "'Ariel', Plath'ın çığır açan şiirlerinden oluşan bir derlemedir. Şiirlerinde intihar, aşk ve kişisel çatışmaları işlerken güçlü bir ses ve dil kullanır."
+      ]
+    },
+    {
+      "tag": "Love ve Misadventure",
+      "patterns": ["love ve misadventure hakkında bilgi", "love ve misadventure nedir", "love ve misadventure konusu", "love ve misadventure özeti"],
+      "responses": [
+        "Lang Leav'in 'Love ve Misadventure' adlı eseri, aşkın çeşitli yönlerini ve ilişkilerin karmaşıklığını işleyen şiirlerden oluşur. Leav'ın duygusal ve dokunaklı eseri.",
+        "'Love ve Misadventure', Lang Leav'ın duygusal derinliği ve içten anlatımıyla dolu, romantik şiirlerden oluşan bir derlemedir. Aşkın güzelliklerini ve zorluklarını ele alır."
+      ]
+    },
+    {
+      "tag": "Leaves of Grass",
+      "patterns": ["leaves of grass hakkında bilgi", "leaves of grass nedir", "leaves of grass konusu", "leaves of grass özeti"],
+      "responses": [
+        "Walt Whitman'ın 'Leaves of Grass' adlı eseri, Amerikan edebiyatının başyapıtlarından biridir. Doğa, insanlık ve demokrasi üzerine derin bir şiir koleksiyonudur.",
+        "'Leaves of Grass', Whitman'ın özgün şiirsel tarzı ve demokratik ideallerle dolu, etkileyici bir eserdir. Amerikan kültürü ve insan doğası hakkında derin düşünceler sunar."
+      ]
+    },
+    {
+      "tag": "Selected Poems 1966-1987",
+      "patterns": ["selected poems 1966-1987 hakkında bilgi", "selected poems 1966-1987 nedir", "selected poems 1966-1987 konusu", "selected poems 1966-1987 özeti"],
+      "responses": [
+        "Seçilmiş Şiirler 1966-1987, büyük bir yazarın en iyi eserlerinin derlendiği bir koleksiyondur. Şairin döneminin ruhunu ve temalarını yansıtır.",
+        "'Selected Poems 1966-1987', seçkin bir şairin en önemli eserlerini bir araya getiren, önemli bir şiir koleksiyonudur. Şairin döneminin ruhunu ve temalarını açıklayıcı bir şekilde sunar."
+      ]
+    },
+    {
+      "tag": "Teaching My Mother How to Give Birth",
+      "patterns": ["teaching my mother how to give birth hakkında bilgi", "teaching my mother how to give birth nedir", "teaching my mother how to give birth konusu", "teaching my mother how to give birth özeti"],
+      "responses": [
+        "Warsan Shire'ın 'Teaching My Mother How to Give Birth' adlı eseri, kimlik, aidiyet ve kadınlık üzerine derin bir şiir koleksiyonudur. Güçlü bir ses ve açık bir ifade tarzıyla dikkat çeker.",
+        "'Teaching My Mother How to Give Birth', Shire'ın etkileyici şiirlerini bir araya getiren, güçlü bir eserdir. Kadın deneyimini ve kimlik arayışını ele alır."
+      ]
+    },
+    {
+      "tag": "Mektuplar",
+      "patterns": ["mektuplar hakkında bilgi", "mektuplar nedir", "mektuplar konusu", "mektuplar özeti"],
+      "responses": [
+        "Mektuplar, yazarların ve düşünürlerin kişisel yazışmalarını içeren bir derlemedir. Bu mektuplar, yazarların düşüncelerini, duygularını ve zamanlarının ruhunu yansıtır.",
+        "Mektuplar, yazarların ve düşünürlerin özel yazışmalarını bir araya getiren, önemli bir eserdir. Bu mektuplar, yazarların kişisel düşüncelerini ve zamanlarındaki olayları yansıtır."
+      ]
+    },
+    {
+      "tag": "Symphony No. 40 in G Minor",
+      "patterns": ["symphony no 40 in g minor hakkında bilgi", "symphony no 40 in g minor nedir", "symphony no 40 in g minor konusu", "symphony no 40 in g minor özeti"],
+      "responses": [
+        "Mozart'ın 'Symphony No. 40 in G Minor' adlı eseri, klasik müziğin önemli eserlerinden biridir. Melankolik bir hava ve etkileyici melodilerle doludur.",
+        "'Symphony No. 40 in G Minor', Mozart'ın derin duygularla dolu ve etkileyici bir eseridir. Klasik müziğin zenginliğini ve duygusal derinliğini yansıtır."
+      ]
+    },
+    {
+      "tag": "Sanat Üzerine",
+      "patterns": ["sanat üzerine hakkında bilgi", "sanat üzerine nedir", "sanat üzerine konusu", "sanat üzerine özeti"],
+      "responses": [
+        "John Berger'ın 'Sanat Üzerine' adlı eseri, sanatın doğasını, işlevini ve toplumsal rolünü inceler. Sanatın gücünü ve anlamını sorgulayan bir deneme.",
+        "'Sanat Üzerine', Berger'ın derin düşünceleri ve eleştirel bakış açısıyla dolu, önemli bir eserdir. Sanatın toplumsal, politik ve duygusal boyutlarını tartışır."
+      ]
+    },
+    {
+      "tag": "The Well-Tempered Clavier",
+      "patterns": ["the well-tempered clavier hakkında bilgi", "the well-tempered clavier nedir", "the well-tempered clavier konusu", "the well-tempered clavier özeti"],
+      "responses": [
+        "Johann Sebastian Bach'ın 'The Well-Tempered Clavier' adlı eseri, klavye için yazılmış önemli bir müzik koleksiyonudur. Bach'ın ustalıkla düzenlenmiş eserlerini içerir.",
+        "'The Well-Tempered Clavier', Bach'ın döneminin en önemli klavye eserlerinden biridir. Müziğin zenginliğini ve duygusal derinliğini gösteren önemli bir başyapıttır."
+      ]
+    },
+    {
+      "tag": "Complete Works",
+      "patterns": ["complete works hakkında bilgi", "complete works nedir", "complete works konusu", "complete works özeti"],
+      "responses": [
+        "Complete Works, bir yazarın veya sanatçının tüm eserlerini içeren bir derlemedir. Bu, yazarın veya sanatçının yaratıcı yolculuğunu ve evrimini gösteren kapsamlı bir koleksiyondur.",
+        "Complete Works, bir yazarın veya sanatçının tüm eserlerini içeren kapsamlı bir derlemedir. Bu, yazarın veya sanatçının yaratıcı sürecini ve eserlerinin gelişimini açıklayıcı bir şekilde sunar."
+      ]
+    },
+    {
+      "tag": "Ways of Seeing",
+      "patterns": ["ways of seeing hakkında bilgi", "ways of seeing nedir", "ways of seeing konusu", "ways of seeing özeti"],
+      "responses": [
+        "'Ways of Seeing', John Berger'ın sanat ve görsel kültür üzerine bir denemesidir. Görsel algıyı ve medyanın etkisini tartışır.",
+        "'Ways of Seeing', Berger'ın sorgulayıcı bakış açısı ve eleştirel düşünceleriyle dolu, önemli bir eserdir. Görsel kültürün ve sanatın toplumsal ve politik boyutlarını inceler."
+      ]
+    },
+    {
+      "tag": "The Kiss",
+      "patterns": ["the kiss hakkında bilgi", "the kiss nedir", "the kiss konusu", "the kiss özeti"],
+      "responses": [
+        "'The Kiss', Gustav Klimt'in ünlü bir tablosudur. Simgeci sanatın önemli bir örneği olarak kabul edilir.",
+        "'The Kiss', Klimt'in başyapıtlarından biridir ve sanat dünyasında büyük bir etki yaratmıştır. Aşk, romantizm ve sembolizm temalarını işler."
+      ]
+    },
+    {
+      "tag": "Symphony No. 9 in D Minor",
+      "patterns": ["symphony no 9 in d minor hakkında bilgi", "symphony no 9 in d minor nedir", "symphony no 9 in d minor konusu", "symphony no 9 in d minor özeti"],
+      "responses": [
+        "Beethoven'ın 'Symphony No. 9 in D Minor' adlı eseri, klasik müzik literatürünün önemli bir parçasıdır. Beethoven'ın dönemindeki yenilikçi bir yaklaşımı temsil eder.",
+        "'Symphony No. 9 in D Minor', Beethoven'ın dönemindeki müzikal devrimi temsil eden önemli bir eserdir. Son hareketinde 'Ode to Joy' kısmıyla öne çıkar."
+      ]
+    },
+    {
+      "tag": "On Photography",
+      "patterns": ["on photography hakkında bilgi", "on photography nedir", "on photography konusu", "on photography özeti"],
+      "responses": [
+        "'On Photography', Susan Sontag'ın fotoğrafçılık ve imgeler üzerine bir denemesidir. Fotoğrafın gücünü ve etkilerini tartışır.",
+        "'On Photography', Sontag'ın keskin gözlem ve eleştirileriyle dolu, önemli bir eserdir. Fotoğrafın toplumsal, politik ve estetik boyutlarını inceler."
+      ]
+    },
+    {
+      "tag": "In Defense of Food",
+      "patterns": ["in defense of food hakkında bilgi", "in defense of food nedir", "in defense of food konusu", "in defense of food özeti"],
+      "responses": [
+        "'In Defense of Food', Michael Pollan'ın gıda endüstrisini eleştiren bir denemesidir. Sağlıklı beslenmenin ve doğal gıdaların önemini vurgular.",
+        "'In Defense of Food', Pollan'ın sağlıklı beslenme ve gıda endüstrisi üzerine derinlemesine araştırmasıyla dolu, önemli bir eserdir. Gıda alışkanlıklarımızın nasıl şekillendiğini ve sağlığımıza etkilerini inceler."
+      ]
+    },
+    {
+      "tag": "The Primal Blueprint",
+      "patterns": ["the primal blueprint hakkında bilgi", "the primal blueprint nedir", "the primal blueprint konusu", "the primal blueprint özeti"],
+      "responses": [
+        "'The Primal Blueprint', Mark Sisson tarafından yazılan bir sağlık ve fitness kitabıdır. Doğal beslenme ve yaşam tarzı değişikliklerinin sağlık üzerindeki etkilerini inceler.",
+        "'The Primal Blueprint', sağlıklı bir yaşam tarzını teşvik eden ve eski çağlardaki insanların yaşam biçimini modern hayata uyarlamayı öneren bir rehberdir."
+      ]
+    },
+    {
+      "tag": "The Bikini Body Guide",
+      "patterns": ["the bikini body guide hakkında bilgi", "the bikini body guide nedir", "the bikini body guide konusu", "the bikini body guide özeti"],
+      "responses": [
+        "'The Bikini Body Guide', Kayla Itsines tarafından geliştirilen bir fitness programıdır. Kardiyo, direnç eğitimi ve sağlıklı beslenme prensiplerini içerir.",
+        "'The Bikini Body Guide', Itsines'ın fitness ve beslenme tavsiyelerini içeren bir rehberdir. Kadınların sağlıklı ve aktif bir yaşam tarzını teşvik eder."
+      ]
+    },
+    {
+      "tag": "Atomic Habits",
+      "patterns": ["atomic habits hakkında bilgi", "atomic habits nedir", "atomic habits konusu", "atomic habits özeti"],
+      "responses": [
+        "'Atomic Habits', James Clear tarafından yazılan bir kitaptır ve kişisel gelişim üzerine odaklanır. Küçük değişikliklerin büyük sonuçlar doğurabileceğini anlatır.",
+        "'Atomic Habits', Clear'ın alışkanlık oluşturma sürecini ve kişisel gelişim stratejilerini anlatan etkili bir rehberdir. Küçük adımların büyük değişiklikler yapabileceğini vurgular."
+      ]
+    },
+    {
+      "tag": "Master Your Metabolism",
+      "patterns": ["master your metabolism hakkında bilgi", "master your metabolism nedir", "master your metabolism konusu", "master your metabolism özeti"],
+      "responses": [
+        "'Master Your Metabolism', Jillian Michaels tarafından yazılan bir sağlık kitabıdır. Metabolizmanın nasıl çalıştığını ve sağlıklı bir yaşam tarzı için önemli ipuçlarını içerir.",
+        "'Master Your Metabolism', Michaels'ın metabolizma hakkında bilgi veren ve sağlıklı yaşam için pratik öneriler sunan bir rehberidir. Beslenme, egzersiz ve yaşam tarzı değişikliklerini ele alır."
+      ]
+    },
+    {
+      "tag": "Finding Ultra",
+      "patterns": ["finding ultra hakkında bilgi", "finding ultra nedir", "finding ultra konusu", "finding ultra özeti"],
+      "responses": [
+        "'Finding Ultra', Rich Roll tarafından yazılan bir kitaptır ve kişisel gelişim üzerine odaklanır. Yazarın hayatını değiştiren deneyimlerini ve ultra-maraton koşuculuğuna olan yolculuğunu anlatır.",
+        "'Finding Ultra', Roll'ın etkileyici hikayesini ve sağlıklı yaşam tarzıyla ilgili ipuçlarını içeren ilham verici bir kitaptır. Zorlukların üstesinden gelme ve kişisel sınırları zorlama konularını ele alır."
+      ]
+    },
+    {
+      "tag": "The Wahls Protocol",
+      "patterns": ["the wahls protocol hakkında bilgi", "the wahls protocol nedir", "the wahls protocol konusu", "the wahls protocol özeti"],
+      "responses": [
+        "'The Wahls Protocol', Dr. Terry Wahls tarafından yazılan bir sağlık kitabıdır. Otoimmün hastalıklar için beslenme ve yaşam tarzı değişikliklerini içeren bir protokol sunar.",
+        "'The Wahls Protocol', Wahls'ın otoimmün hastalıklarla mücadele için geliştirdiği beslenme ve yaşam tarzı önerilerini içeren bir rehberdir. Doğal beslenmenin sağlık üzerindeki önemini vurgular."
+      ]
+    },
+    {
+      "tag": "Can't Hurt Me",
+      "patterns": ["can't hurt me hakkında bilgi", "can't hurt me nedir", "can't hurt me konusu", "can't hurt me özeti"],
+      "responses": [
+        "'Can't Hurt Me', David Goggins tarafından yazılan bir kitaptır ve kişisel gelişim üzerine odaklanır. Yazarın zorlu yaşam deneyimlerini ve sınırları zorlayan başarı hikayesini anlatır.",
+        "'Can't Hurt Me', Goggins'ın etkileyici hikayesini ve zorluklarla mücadele konusundaki felsefesini içeren bir kitaptır. Zihinsel dayanıklılığın ve azmin önemini vurgular."
+      ]
+    },
+    {
+      "tag": "7 Habits of Highly Effective People",
+      "patterns": ["7 habits of highly effective people hakkında bilgi", "7 habits of highly effective people nedir", "7 habits of highly effective people konusu", "7 habits of highly effective people özeti"],
+      "responses": [
+        "'7 Habits of Highly Effective People', Stephen R. Covey tarafından yazılan bir kitaptır ve kişisel gelişim üzerine odaklanır. Başarılı insanların ortak alışkanlıklarını inceler.",
+        "'7 Habits of Highly Effective People', Covey'ın etkili insanların alışkanlıklarını ve prensiplerini ele alan klasik bir rehberidir. Kişisel ve profesyonel başarı için öneriler sunar."
+      ]
+    },
+    {
+      "tag": "How to Win Friends and Influence People",
+      "patterns": ["how to win friends and influence people hakkında bilgi", "how to win friends and influence people nedir", "how to win friends and influence people konusu", "how to win friends and influence people özeti"],
+      "responses": [
+        "'How to Win Friends and Influence People', Dale Carnegie tarafından yazılan bir kitaptır ve iletişim ve etkileşim üzerine odaklanır. İnsan ilişkilerini geliştirmek için pratik ipuçları sunar.",
+        "'How to Win Friends and Influence People', Carnegie'ın etkili iletişim ve insan ilişkileri üzerine zamanın en popüler kitaplarından biridir. İnsanların davranışlarını anlama ve etkileme konularını ele alır."
+      ]
+    },
+    {
+      "tag": "Lean In",
+      "patterns": ["lean in hakkında bilgi", "lean in nedir", "lean in konusu", "lean in özeti"],
+      "responses": [
+        "'Lean In', Sheryl Sandberg tarafından yazılan bir kitaptır ve kadın liderlik üzerine odaklanır. Kadınların iş dünyasında nasıl başarılı olabileceklerini inceler.",
+        "'Lean In', Sandberg'in kadınların iş dünyasındaki liderlik rollerini ele alan önemli bir kitabıdır. Toplumsal cinsiyet eşitliği ve kadınların kariyer başarısı konularını tartışır."
+      ]
+    },
+    {
+      "tag": "Deep Work",
+      "patterns": ["deep work hakkında bilgi", "deep work nedir", "deep work konusu", "deep work özeti"],
+      "responses": [
+        "'Deep Work', Cal Newport tarafından yazılan bir kitaptır ve konsantrasyon ve üretkenlik üzerine odaklanır. Derin iş yapma becerilerini geliştirmek için stratejiler sunar.",
+        "'Deep Work', Newport'ın derin iş yapmanın önemini ve nasıl başarılacağını anlattığı etkileyici bir kitaptır. Odaklanma ve dikkat konularını ele alır."
+      ]
+    },
+    {
+      "tag": "Start with Why",
+      "patterns": ["start with why hakkında bilgi", "start with why nedir", "start with why konusu", "start with why özeti"],
+      "responses": [
+        "'Start with Why', Simon Sinek tarafından yazılan bir kitaptır ve liderlik ve motivasyon üzerine odaklanır. İnsanların neden yaptıklarını anlamalarını vurgular.",
+        "'Start with Why', Sinek'ın ilham verici liderlik ve motivasyon kavramlarını anlattığı bir kitaptır. İnsanların tutkularını ve motivasyonlarını keşfetmelerine yardımcı olur."
+      ]
+    },
+    {
+      "tag": "The 4-Hour Workweek",
+      "patterns": ["the 4-hour workweek hakkında bilgi", "the 4-hour workweek nedir", "the 4-hour workweek konusu", "the 4-hour workweek özeti"],
+      "responses": [
+        "'The 4-Hour Workweek', Timothy Ferriss tarafından yazılan bir kitaptır ve iş hayatı ve zaman yönetimi üzerine odaklanır. Daha az çalışarak daha fazla başarı elde etmenin stratejilerini sunar.",
+        "'The 4-Hour Workweek', Ferriss'ın yaşamı ve işi dengeleme konusundaki kişisel deneyimlerini ve stratejilerini içeren bir rehberdir. Daha etkili çalışma yöntemleri ve zaman yönetimi ipuçları sunar."
+      ]
+    },
+    {
+      "tag": "Outliers",
+      "patterns": ["outliers hakkında bilgi", "outliers nedir", "outliers konusu", "outliers özeti"],
+      "responses": [
+        "'Outliers', Malcolm Gladwell tarafından yazılan bir kitaptır ve başarı üzerine odaklanır. Olağandışı başarı hikayelerini ve dış faktörlerin rolünü inceler.",
+        "'Outliers', Gladwell'ın başarının ardındaki sırları ve olağandışı başarı hikayelerini anlattığı bir kitaptır. Başarıya giden yolda etkili olan faktörleri ele alır."
+      ]
+    },
+    {
+      "tag": "Drive",
+      "patterns": ["drive hakkında bilgi", "drive nedir", "drive konusu", "drive özeti"],
+      "responses": [
+        "'Drive', Daniel H. Pink tarafından yazılan bir kitaptır ve motivasyon üzerine odaklanır. İnsanların içsel motivasyonlarını ve işlerini neden yaptıklarını anlamak üzerine bir çalışmadır.",
+        "'Drive', Pink'ın motivasyon ve iş performansı üzerine yapılan araştırmaları temel alarak, insanların içsel motivasyonlarını ve yaratıcılıklarını nasıl teşvik edebileceğini anlatan bir kitaptır."
+      ]
+    },
+    {
+      "tag": "Grit",
+      "patterns": ["grit hakkında bilgi", "grit nedir", "grit konusu", "grit özeti"],
+      "responses": [
+        "'Grit', Angela Duckworth tarafından yazılan bir kitaptır ve başarı üzerine odaklanır. Yetenekten daha önemli olanın azim ve kararlılık olduğunu savunur.",
+        "'Grit', Duckworth'ın azim ve kararlılık üzerine yaptığı kapsamlı araştırmaları temel alarak, başarının ardındaki sırları açıklar ve insanlara nasıl daha dayanıklı olabileceklerini öğretir."
+      ]
+    },
+    {
+      "tag": "Küçük Prens",
+      "patterns": ["küçük prens hakkında bilgi", "küçük prens nedir", "küçük prens konusu", "küçük prens özeti"],
+      "responses": [
+        "'Küçük Prens', Antoine de Saint-Exupéry tarafından yazılan klasik bir masal kitabıdır. Çocuklar için olduğu kadar yetişkinler için de derin anlamlar taşır.",
+        "'Küçük Prens', Saint-Exupéry'nin klasik eseri, büyüme, dostluk ve insan doğası üzerine derinlemesine bir masalı anlatır. Zengin semboller ve evrensel temalar içerir."
+      ]
+    },
+    {
+      "tag": "Charlie'nin Çikolata Fabrikası",
+      "patterns": ["charlienin çikolata fabrikası hakkında bilgi", "charlienin çikolata fabrikası nedir", "charlienin çikolata fabrikası konusu", "charlienin çikolata fabrikası özeti"],
+      "responses": [
+        "'Charlie'nin Çikolata Fabrikası', Roald Dahl tarafından yazılan bir çocuk kitabıdır. Fantastik ve eğlenceli bir macera sunar.",
+        "'Charlie'nin Çikolata Fabrikası', Dahl'ın eğlenceli ve hayal gücü dolu hikayesi, çocukları büyüleyen bir maceradır. Charlie'nin Willy Wonka'nın çikolata fabrikasındaki maceralarını anlatır."
+      ]
+    },
+    {
+      "tag": "Pippi Uzunçorap",
+      "patterns": ["pippi uzunçorap hakkında bilgi", "pippi uzunçorap nedir", "pippi uzunçorap konusu", "pippi uzunçorap özeti"],
+      "responses": [
+        "'Pippi Uzunçorap', Astrid Lindgren tarafından yazılan klasik bir çocuk kitabıdır. Cesur, bağımsız ve neşeli bir kız olan Pippi'nin maceralarını anlatır.",
+        "'Pippi Uzunçorap', Lindgren'ın eğlenceli ve heyecanlı hikayesi, çocukların hayal dünyasını zenginleştiren bir maceradır. Pippi'nin neşeli ve özgür ruhuyla dolu maceralarını içerir."
+      ]
+    },
+    {
+      "tag": "Harry Potter Serisi",
+      "patterns": ["harry potter serisi hakkında bilgi", "harry potter serisi nedir", "harry potter serisi konusu", "harry potter serisi özeti"],
+      "responses": [
+        "'Harry Potter Serisi', J.K. Rowling tarafından yazılan bir fantastik roman serisidir. Genç bir büyücü olan Harry Potter'ın maceralarını ve Hogwarts Büyücülük Okulu'ndaki yaşamını anlatır.",
+        "'Harry Potter Serisi', Rowling'ın dünya çapında fenomen haline gelen serisi, sihirli dünyası ve Hogwarts maceralarıyla dolu bir maceradır. Harry'nin Voldemort ile olan mücadelesi ve dostluklarını işler."
+      ]
+    },
+    {
+      "tag": "Green Eggs and Ham",
+      "patterns": ["green eggs and ham hakkında bilgi", "green eggs and ham nedir", "green eggs and ham konusu", "green eggs and ham özeti"],
+      "responses": [
+        "'Green Eggs and Ham', Dr. Seuss tarafından yazılan klasik bir çocuk kitabıdır. Sevdiği yeşil yumurtaları ve jambonu denemek istemeyen bir karakterin hikayesini anlatır.",
+        "'Green Eggs and Ham', Dr. Seuss'ın eğlenceli ve ritmik dil kullanımıyla dolu hikayesi, çocukların hayal gücünü ve okuma keyfini artıran bir masaldır. Karakterin maceraları ve sonunda deneyimlediği değişim üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "The Very Hungry Caterpillar",
+      "patterns": ["the very hungry caterpillar hakkında bilgi", "the very hungry caterpillar nedir", "the very hungry caterpillar konusu", "the very hungry caterpillar özeti"],
+      "responses": [
+        "'The Very Hungry Caterpillar', Eric Carle tarafından yazılan klasik bir çocuk kitabıdır. Aç bir tırtılın hafta boyunca yediği yiyecekleri ve dönüşümünü anlatır.",
+        "'The Very Hungry Caterpillar', Carle'ın renkli ve eğlenceli illüstrasyonlarıyla dolu hikayesi, çocukların doğayı ve yaşam döngülerini keşfetmelerini sağlayan bir masaldır. Tırtılın dönüşümü ve kelebeğe dönüşmesi üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "The Gruffalo",
+      "patterns": ["the gruffalo hakkında bilgi", "the gruffalo nedir", "the gruffalo konusu", "the gruffalo özeti"],
+      "responses": [
+        "'The Gruffalo', Julia Donaldson ve Axel Scheffler tarafından yazılan klasik bir çocuk kitabıdır. Kurnaz bir fare ve onun hayali bir canavar olan Gruffalo hakkında bir hikaye anlatır.",
+        "'The Gruffalo', Donaldson'ın eğlenceli hikayesi ve Scheffler'ın çarpıcı illüstrasyonlarıyla dolu bir masaldır. Kurnazlık, zekâ ve arkadaşlık konularını işler."
+      ]
+    },
+    {
+      "tag": "Where the Wild Things Are",
+      "patterns": ["where the wild things are hakkında bilgi", "where the wild things are nedir", "where the wild things are konusu", "where the wild things are özeti"],
+      "responses": [
+        "'Where the Wild Things Are', Maurice Sendak tarafından yazılan klasik bir çocuk kitabıdır. Küçük bir çocuğun hayal gücü ve macera arzusu üzerine bir hikaye anlatır.",
+        "'Where the Wild Things Are', Sendak'ın çarpıcı illüstrasyonlarıyla dolu bir masaldır. Çocuğun hayal gücünün ve macera arzusunun önemini vurgular."
+      ]
+    },
+    {
+      "tag": "Where the Sidewalk Ends",
+      "patterns": ["where the sidewalk ends hakkında bilgi", "where the sidewalk ends nedir", "where the sidewalk ends konusu", "where the sidewalk ends özeti"],
+      "responses": [
+        "'Where the Sidewalk Ends', Shel Silverstein tarafından yazılan bir çocuk kitabıdır. Şiirler ve çizimlerle dolu eğlenceli bir kitaptır.",
+        "'Where the Sidewalk Ends', Silverstein'ın çocuklar için yazdığı eğlenceli ve duygusal şiirlerden oluşan bir koleksiyondur. Hayal gücünü ve yaratıcılığı teşvik eder."
+      ]
+    },
+    {
+      "tag": "The Fault in Our Stars",
+      "patterns": ["the fault in our stars hakkında bilgi", "the fault in our stars nedir", "the fault in our stars konusu", "the fault in our stars özeti"],
+      "responses": [
+        "'The Fault in Our Stars', John Green tarafından yazılan bir genç yetişkin romanıdır. Kanserle mücadele eden iki genç arasındaki aşk hikayesini anlatır.",
+        "'The Fault in Our Stars', Green'ın duygusal ve dokunaklı hikayesi, gençler arasındaki aşkın ve yaşamın anlamının derinlemesine incelenmesini sağlar. Kanserle mücadele eden gençlerin yaşadığı zorlukları işler."
+      ]
+    },
+    {
+      "tag": "Throne of Glass Serisi",
+      "patterns": ["throne of glass serisi hakkında bilgi", "throne of glass serisi nedir", "throne of glass serisi konusu", "throne of glass serisi özeti"],
+      "responses": [
+        "'Throne of Glass Serisi', Sarah J. Maas tarafından yazılan bir fantezi roman serisidir. Suikastçı Celaena Sardothien'in maceralarını ve krallık politikalarını anlatır.",
+        "'Throne of Glass Serisi', Maas'ın heyecan verici hikayesi, güçlü kadın karakterleri ve büyülü dünyasıyla genç okuyucuları etkileyen bir seridir. Celaena'nın maceraları, entrikalar ve aşk üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "Divergent Serisi",
+      "patterns": ["divergent serisi hakkında bilgi", "divergent serisi nedir", "divergent serisi konusu", "divergent serisi özeti"],
+      "responses": [
+        "'Divergent Serisi', Veronica Roth tarafından yazılan bir distopik genç yetişkin roman serisidir. Bir distopyada hayatta kalmak için mücadele eden genç bir kızın hikayesini anlatır.",
+        "'Divergent Serisi', Roth'un heyecan verici hikayesi, farklı fraksiyonlar arasındaki mücadele ve kişisel kimlik üzerine odaklanır. Beatrice Prior'ın (Tris) maceraları ve kendi yolunu bulma çabalarını işler."
+      ]
+    },
+    {
+      "tag": "The Hunger Games Serisi",
+      "patterns": ["the hunger games serisi hakkında bilgi", "the hunger games serisi nedir", "the hunger games serisi konusu", "the hunger games serisi özeti"],
+      "responses": [
+        "'The Hunger Games Serisi', Suzanne Collins tarafından yazılan bir distopik genç yetişkin roman serisidir. Bir distopyada düzenlenen ölümcül bir oyun olan Açlık Oyunları'nı anlatır.",
+        "'The Hunger Games Serisi', Collins'in sürükleyici hikayesi, hayatta kalma mücadelesi, politik entrikalar ve aşk üzerine odaklanır. Katniss Everdeen'ın maceraları ve distopik dünyasının keşfi üzerine kuruludur."
+      ]
+    },
+    {
+      "tag": "Percy Jackson and the Olympians Serisi",
+      "patterns": ["percy jackson and the olympians serisi hakkında bilgi", "percy jackson and the olympians serisi nedir", "percy jackson and the olympians serisi konusu", "percy jackson and the olympians serisi özeti"],
+      "responses": [
+        "'Percy Jackson and the Olympians Serisi', Rick Riordan tarafından yazılan bir genç yetişkin roman serisidir. Percy Jackson'ın Yunan mitolojisindeki maceralarını anlatır.",
+        "'Percy Jackson and the Olympians Serisi', Riordan'ın eğlenceli ve heyecan verici hikayesi, mitolojik yaratıklar, tanrılar ve kahramanlık üzerine odaklanır. Percy'nin modern dünyada tanrılarla olan savaşını işler."
+      ]
+    },
+    {
+      "tag": "The Hate U Give",
+      "patterns": ["the hate u give hakkında bilgi", "the hate u give nedir", "the hate u give konusu", "the hate u give özeti"],
+      "responses": [
+        "'The Hate U Give', Angie Thomas tarafından yazılan bir genç yetişkin romanıdır. Irksal adaletsizlik, aktivizm ve kimlik üzerine önemli bir hikaye anlatır.",
+        "'The Hate U Give', Thomas'ın güçlü ve etkileyici hikayesi, genç bir kızın siyah bir erkeğin polis tarafından öldürülmesi sonucu yaşadığı deneyimi ve sonrasında gelişen olayları anlatır. Irksal adalet ve aktivizm konularını işler."
+      ]
+    },
+    {
+      "tag": "Fangirl",
+      "patterns": ["fangirl hakkında bilgi", "fangirl nedir", "fangirl konusu", "fangirl özeti"],
+      "responses": [
+        "'Fangirl', Rainbow Rowell tarafından yazılan bir genç yetişkin romanıdır. Bir fan kızın üniversite yaşamı ve kişisel gelişimi üzerine bir hikaye anlatır.",
+        "'Fangirl', Rowell'ın eğlenceli ve samimi hikayesi, hayranlık, aşk ve kişisel kimlik üzerine odaklanır. Kurgu dünyasında yer alan bir fan kızın gerçek hayata uyum sağlamasını ve kendini bulmasını işler."
+      ]
+    },
+    {
+      "tag": "Legend Serisi",
+      "patterns": ["legend serisi hakkında bilgi", "legend serisi nedir", "legend serisi konusu", "legend serisi özeti"],
+      "responses": [
+        "'Legend Serisi', Marie Lu tarafından yazılan bir distopik genç yetişkin roman serisidir. Bir suikastçı ile bir askerin karşı karşıya gelmesini anlatır.",
+        "'Legend Serisi', Lu'nun heyecan verici ve aksiyon dolu hikayesi, suikastçı June ve asker Day'in karşı karşıya gelmesini ve dünya çapında bir komplo üzerine çalışmalarını işler."
+      ]
+    },
+    {
+      "tag": "Nasıl İnsanlarla İyi Geçerim",
+      "patterns": ["nasıl insanlarla iyi geçerim hakkında bilgi", "nasıl insanlarla iyi geçerim nedir", "nasıl insanlarla iyi geçerim konusu", "nasıl insanlarla iyi geçerim özeti"],
+      "responses": [
+        "'Nasıl İnsanlarla İyi Geçerim', Dale Carnegie tarafından yazılan bir kişisel gelişim kitabıdır. İnsanlarla iletişim kurmanın ve ilişkileri geliştirmenin yollarını açıklar.",
+        "'Nasıl İnsanlarla İyi Geçerim', Carnegie'ın klasik eseri, insanlarla daha etkili iletişim kurmanın ve olumlu ilişkiler geliştirmenin ipuçlarını sunar. Karşılıklı anlayış, empati ve etkili iletişim üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "The Life-Changing Magic of Tidying Up",
+      "patterns": ["the life-changing magic of tidying up hakkında bilgi", "the life-changing magic of tidying up nedir", "the life-changing magic of tidying up konusu", "the life-changing magic of tidying up özeti"],
+      "responses": [
+        "'The Life-Changing Magic of Tidying Up', Marie Kondo tarafından yazılan bir kişisel gelişim kitabıdır. Düzenlemenin ve yaşam alanını temizlemenin önemini vurgular.",
+        "'The Life-Changing Magic of Tidying Up', Kondo'nun pratik ve etkili düzenleme yöntemlerini açıklayan bir rehberdir. Evdeki karmaşıklığı azaltmanın ve sade bir yaşam tarzı benimsemenin yollarını sunar."
+      ]
+    },
+    {
+      "tag": "Getting Things Done",
+      "patterns": ["getting things done hakkında bilgi", "getting things done nedir", "getting things done konusu", "getting things done özeti"],
+      "responses": [
+        "'Getting Things Done', David Allen tarafından yazılan bir kişisel üretkenlik kitabıdır. İşleri düzenlemenin ve verimliliği artırmanın yollarını açıklar.",
+        "'Getting Things Done', Allen'ın sistemli ve pratik yaklaşımı, işlerinizi düzenlemenin ve etkili bir şekilde yönetmenin stratejilerini sunar. Zaman yönetimi, önceliklendirme ve hedef belirleme üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "In Defense of Food",
+      "patterns": ["in defense of food hakkında bilgi", "in defense of food nedir", "in defense of food konusu", "in defense of food özeti"],
+      "responses": [
+        "'In Defense of Food', Michael Pollan tarafından yazılan bir beslenme kitabıdır. Doğal ve sağlıklı beslenmenin önemini vurgular.",
+        "'In Defense of Food', Pollan'ın beslenme ve gıda endüstrisi üzerine yaptığı eleştirel bir çalışmadır. Doğal ve işlenmemiş gıdaların önemini vurgular ve sağlıklı beslenme prensiplerini açıklar."
+      ]
+    },
+    {
+      "tag": "The Happiness Project",
+      "patterns": ["the happiness project hakkında bilgi", "the happiness project nedir", "the happiness project konusu", "the happiness project özeti"],
+      "responses": [
+        "'The Happiness Project', Gretchen Rubin tarafından yazılan bir kişisel gelişim kitabıdır. Mutluluğu araştırmanın ve artırmanın yollarını açıklar.",
+        "'The Happiness Project', Rubin'ın kişisel deneyimlerine dayanan bir araştırma ve rehberdir. Mutluluğun kaynaklarını keşfetmek ve yaşamınızı daha tatmin edici hale getirmek için pratik stratejiler sunar."
+      ]
+    },
+    {
+      "tag": "Encyclopedia Britannica",
+      "patterns": ["encyclopedia britannica hakkında bilgi", "encyclopedia britannica nedir", "encyclopedia britannica konusu", "encyclopedia britannica özeti"],
+      "responses": [
+        "'Encyclopedia Britannica', Britannica Inc. tarafından yayınlanan kapsamlı bir ansiklopedidir. Genel bilgi, tarih, bilim ve sanat hakkında bilgiler içerir.",
+        "'Encyclopedia Britannica', geniş bir yelpazedeki konularda kapsamlı bilgiler sunan prestijli bir ansiklopedidir. Dünya çapında bilim insanları ve uzmanlar tarafından derlenmiş bilgiler içerir."
+      ]
+    },
+    {
+      "tag": "The Oxford English Dictionary",
+      "patterns": ["the oxford english dictionary hakkında bilgi", "the oxford english dictionary nedir", "the oxford english dictionary konusu", "the oxford english dictionary özeti"],
+      "responses": [
+        "'The Oxford English Dictionary', Oxford University Press tarafından yayınlanan kapsamlı bir İngilizce sözlüktür. İngilizce dilinin kelime kökenleri ve anlamları hakkında bilgiler içerir.",
+        "'The Oxford English Dictionary', İngilizce dilinin en kapsamlı ve otoriter sözlüğüdür. Kelime kökenleri, anlamları, kullanımları ve tarihsel değişimleri hakkında ayrıntılı bilgiler sunar."
+      ]
+    },
+    {
+      "tag": "The Cambridge Encyclopedia of Language",
+      "patterns": ["the cambridge encyclopedia of language hakkında bilgi", "the cambridge encyclopedia of language nedir", "the cambridge encyclopedia of language konusu", "the cambridge encyclopedia of language özeti"],
+      "responses": [
+        "'The Cambridge Encyclopedia of Language', David Crystal tarafından yazılan kapsamlı bir dil ansiklopedisidir. Dil bilimi ve dil tarihi hakkında genel bilgiler içerir.",
+        "'The Cambridge Encyclopedia of Language', Crystal'ın kapsamlı rehberi, dil biliminin temel kavramlarından tarihine kadar geniş bir yelpazede bilgi sunar. Dilin evrimi, yapısal özellikleri ve kültürel etkileri üzerine odaklanır."
+      ]
+    },
+    {
+      "tag": "Merriam-Webster's Collegiate Dictionary",
+      "patterns": ["merriam-webster's collegiate dictionary hakkında bilgi", "merriam-webster's collegiate dictionary nedir", "merriam-webster's collegiate dictionary konusu", "merriam-webster's collegiate dictionary özeti"],
+      "responses": [
+        "'Merriam-Webster's Collegiate Dictionary', Merriam-Webster tarafından yayınlanan kapsamlı bir İngilizce sözlüktür. Genel kullanıma yönelik kelimelerin tanımlarını ve telaffuzlarını içerir.",
+        "'Merriam-Webster's Collegiate Dictionary', genel kullanıma yönelik bir İngilizce sözlük olup geniş bir kelime hazinesini kapsar. Kelimelerin anlamları, kökenleri ve kullanımları hakkında detaylı bilgiler sunar."
+      ]
+    },
+    {
+      "tag": "The World Almanac and Book of Facts",
+      "patterns": ["the world almanac and book of facts hakkında bilgi", "the world almanac and book of facts nedir", "the world almanac and book of facts konusu", "the world almanac and book of facts özeti"],
+      "responses": [
+        "'The World Almanac and Book of Facts', Amerikan gazeteci ve yazar Sarah Janssen tarafından yayınlanan bir referans kitabıdır. Dünya çapında olaylar ve istatistikler hakkında bilgiler içerir.",
+        "'The World Almanac and Book of Facts', dünya genelindeki çeşitli konularda güncel istatistikler ve bilgiler sunan bir başvuru kitabıdır. Tarih, coğrafya, bilim, spor ve ekonomi gibi konularda ayrıntılı bilgiler içerir."
+      ]
+    },
+    {
+      "tag": "The Encyclopedia of World History",
+      "patterns": ["the encyclopedia of world history hakkında bilgi", "the encyclopedia of world history nedir", "the encyclopedia of world history konusu", "the encyclopedia of world history özeti"],
+      "responses": [
+        "'The Encyclopedia of World History', Peter N. Stearns tarafından yayınlanan kapsamlı bir dünya tarihi ansiklopedisidir. Dünya tarihinin farklı dönemleri ve olayları hakkında bilgiler içerir.",
+        "'The Encyclopedia of World History', dünya tarihine geniş bir bakış sunan kapsamlı bir referans kaynağıdır. İnsan medeniyetinin evrimi, büyük imparatorluklar, savaşlar ve keşifler gibi konuları kapsar."
+      ]
+    },
+    {
+      "tag": "The Complete Book of Essential Oils and Aromatherapy",
+      "patterns": ["the complete book of essential oils and aromatherapy hakkında bilgi", "the complete book of essential oils and aromatherapy nedir", "the complete book of essential oils and aromatherapy konusu", "the complete book of essential oils and aromatherapy özeti"],
+      "responses": [
+        "'The Complete Book of Essential Oils and Aromatherapy', Valerie Ann Worwood tarafından yazılan bir aromaterapi kitabıdır. Bitkisel yağların sağlık ve zindelik üzerindeki etkilerini açıklar.",
+        "'The Complete Book of Essential Oils and Aromatherapy', aromaterapi uygulamaları ve bitkisel yağların kullanımı hakkında kapsamlı bir kılavuzdur. Bitkisel yağların sağlık, güzellik ve duygusal iyilik hali üzerindeki faydalarını inceler."
+      ]
+    },
+    {
+      "tag": "The Elements of Style",
+      "patterns": ["the elements of style hakkında bilgi", "the elements of style nedir", "the elements of style konusu", "the elements of style özeti"],
+      "responses": [
+        "'The Elements of Style', William Strunk Jr. ve E.B. White tarafından yazılan bir dil ve kompozisyon rehberidir. İngilizce dilinin doğru kullanımı ve yazım kuralları hakkında bilgiler içerir.",
+        "'The Elements of Style', İngilizce dilinin temel kurallarını ve yazım tekniklerini açıklayan kısa ve öz bir rehberdir. Net ve etkili iletişim için gerekli olan dilbilgisi ve kompozisyon prensiplerini vurgular."
+      ]
+    },
+    {
+      "tag": "The Visual Dictionary of Interior Architecture and Design",
+      "patterns": ["the visual dictionary of interior architecture and design hakkında bilgi", "the visual dictionary of interior architecture and design nedir", "the visual dictionary of interior architecture and design konusu", "the visual dictionary of interior architecture and design özeti"],
+      "responses": [
+        "'The Visual Dictionary of Interior Architecture and Design', Michael Coates tarafından yazılan bir iç mimari ve tasarım sözlüğüdür. İç mekan tasarımı ve mimarlık terimlerini görsel olarak açıklar.",
+        "'The Visual Dictionary of Interior Architecture and Design', iç mimari ve tasarım dünyasındaki temel kavramları ve terimleri görsel olarak açıklayan kapsamlı bir kaynaktır. Mobilya, aydınlatma, renk ve doku gibi konuları kapsar."
+      ]
+    },
+    {
+      "tag": "Montaigne: Denemeler",
+      "patterns": ["montaigne: denemeler hakkında bilgi", "montaigne: denemeler nedir", "montaigne: denemeler konusu", "montaigne: denemeler özeti"],
+      "responses": [
+        "'Montaigne: Denemeler', Michel de Montaigne tarafından yazılan kişisel denemelerdir. Felsefi düşünceler, yaşam deneyimleri ve insan doğası üzerine düşünceler içerir.",
+        "'Montaigne: Denemeler', Montaigne'ın felsefi düşüncelerini ve kişisel deneyimlerini içeren klasik bir eserdir. İnsanın doğası, mutluluk ve yaşamın anlamı gibi konuları ele alır."
+      ]
+    },
+    {
+      "tag": "Virginia Woolf: Deneme Üzerine",
+      "patterns": ["virginia woolf: deneme üzerine hakkında bilgi", "virginia woolf: deneme üzerine nedir", "virginia woolf: deneme üzerine konusu", "virginia woolf: deneme üzerine özeti"],
+      "responses": [
+        "'Virginia Woolf: Deneme Üzerine', Virginia Woolf'un deneme tarzındaki yazılarının bir derlemesidir. Yazarın denemelerinde edebiyat, sanat ve kadın hakları gibi çeşitli konuları ele aldığı bilinmektedir.",
+        "'Virginia Woolf: Deneme Üzerine', Woolf'un denemelerini bir araya getiren bir derlemedir. Yazarın edebiyat ve sanat üzerine derinlemesine düşüncelerini içerir ve modern deneme türünün öncülerinden biridir."
+      ]
+    },
+    {
+      "tag": "Slouching Towards Bethlehem",
+      "patterns": ["slouching towards bethlehem hakkında bilgi", "slouching towards bethlehem nedir", "slouching towards bethlehem konusu", "slouching towards bethlehem özeti"],
+      "responses": [
+        "'Slouching Towards Bethlehem', Joan Didion tarafından yazılan bir deneme koleksiyonudur. Amerikan toplumu ve kültürü üzerine çeşitli gözlemler içerir.",
+        "'Slouching Towards Bethlehem', Didion'ın keskin gözlem yeteneğiyle yazılmış bir deneme koleksiyonudur. 1960'ların Amerikan toplumunu ve kültürünü çeşitli açılardan inceler."
+      ]
+    },
+    {
+      "tag": "Me Talk Pretty One Day",
+      "patterns": ["me talk pretty one day hakkında bilgi", "me talk pretty one day nedir", "me talk pretty one day konusu", "me talk pretty one day özeti"],
+      "responses": [
+        "'Me Talk Pretty One Day', David Sedaris tarafından yazılan bir deneme ve anı kitabıdır. Yazarın yaşamından komik ve çarpıcı anıları içerir.",
+        "'Me Talk Pretty One Day', Sedaris'ın mizahi ve kendine özgü üslubuyla yazılmış bir anı ve deneme kitabıdır. Yazarın dil öğrenme deneyimleri ve aile ilişkileri üzerine komik ve dokunaklı hikayeler anlatır."
+      ]
+    },
+    {
+      "tag": "Changing My Mind",
+      "patterns": ["changing my mind hakkında bilgi", "changing my mind nedir", "changing my mind konusu", "changing my mind özeti"],
+      "responses": [
+        "'Changing My Mind', Zadie Smith tarafından yazılan bir deneme koleksiyonudur. Yazarın edebi eleştiri, kültür ve kişisel deneyimleri üzerine düşüncelerini içerir.",
+        "'Changing My Mind', Smith'in çeşitli konuları ele aldığı ve farklı perspektifler sunan bir deneme koleksiyonudur. Edebiyat, sinema, politika ve ırksal kimlik gibi temalara odaklanır."
+      ]
+    },
+    {
+      "tag": "Essays",
+      "patterns": ["essays hakkında bilgi", "essays nedir", "essays konusu", "essays özeti"],
+      "responses": [
+        "'Essays', Ralph Waldo Emerson tarafından yazılan bir deneme kitabıdır. Yazarın felsefi düşüncelerini ve kişisel deneyimlerini içeren bir derlemedir.",
+        "'Essays', Emerson'ın doğa, özgürlük ve kişisel gelişim gibi konuları ele aldığı deneme tarzındaki yazılarının bir derlemesidir. Transandantalizm felsefesinin önemli eserlerinden biridir."
+      ]
+    },
+    {
+      "tag": "Pilgrim at Tinker Creek",
+      "patterns": ["pilgrim at tinker creek hakkında bilgi", "pilgrim at tinker creek nedir", "pilgrim at tinker creek konusu", "pilgrim at tinker creek özeti"],
+      "responses": [
+        "'Pilgrim at Tinker Creek', Annie Dillard tarafından yazılan bir deneme ve doğa kitabıdır. Yazarın Virginia'daki bir nehir kıyısında doğayla kurduğu ilişkiyi anlatır.",
+        "'Pilgrim at Tinker Creek', Dillard'ın doğayla ve doğanın mucizeleriyle ilgili gözlemlerini ve düşüncelerini içeren bir deneme ve doğa kitabıdır. Doğanın güzelliği ve karmaşıklığı üzerine derinlemesine düşünceler sunar."
+      ]
+    },
+    {
+      "tag": "Notes of a Native Son",
+      "patterns": ["notes of a native son hakkında bilgi", "notes of a native son nedir", "notes of a native son konusu", "notes of a native son özeti"],
+      "responses": [
+        "'Notes of a Native Son', James Baldwin tarafından yazılan bir deneme ve anı kitabıdır. Yazarın ırk, kimlik ve aidiyet üzerine düşüncelerini içerir.",
+        "'Notes of a Native Son', Baldwin'ın ırk ve toplumsal adalet üzerine güçlü ve etkileyici denemelerinin bir derlemesidir. Amerikan toplumunun ırksal dinamiklerini ve kişisel deneyimlerini inceler."
+      ]
+    },
+    {
+      "tag": "Leviathan",
+      "patterns": ["leviathan hakkında bilgi", "leviathan nedir", "leviathan konusu", "leviathan özeti"],
+      "responses": [
+        "'Leviathan', Thomas Hobbes tarafından yazılan bir politik felsefe kitabıdır. Devletin doğası ve toplumsal sözleşme teorisini ele alır.",
+        "'Leviathan', Hobbes'ın toplumsal sözleşme teorisini savunduğu ve mutlak bir hükümetin gerekliliğini savunduğu politik bir felsefe eseridir. İnsan doğası ve toplumsal düzen üzerine düşünceler içerir."
+      ]
+    },
+    {
+      "tag": "The Origins of Totalitarianism",
+      "patterns": ["the origins of totalitarianism hakkında bilgi", "the origins of totalitarianism nedir", "the origins of totalitarianism konusu", "the origins of totalitarianism özeti"],
+      "responses": [
+        "'The Origins of Totalitarianism', Hannah Arendt tarafından yazılan bir politik teori kitabıdır. Totalitarizmin yükselişini ve doğasını inceler.",
+        "'The Origins of Totalitarianism', Arendt'ın totalitarizmin tarihini ve kökenlerini araştıran kapsamlı bir çalışmasıdır. Nazi Almanyası ve Stalinist Rusya gibi dönemler üzerine derinlemesine analizler sunar."
+      ]
+    },
+    {
+      "tag": "Manufacturing Consent",
+      "patterns": ["manufacturing consent hakkında bilgi", "manufacturing consent nedir", "manufacturing consent konusu", "manufacturing consent özeti"],
+      "responses": [
+        "'Manufacturing Consent', Noam Chomsky ve Edward S. Herman tarafından yazılan bir kitaptır. Medyanın işleyişi ve kamuoyunu nasıl şekillendirdiği üzerine bir analiz sunar.",
+        "'Manufacturing Consent', Chomsky ve Herman'ın medyanın işleyişini eleştirel bir şekilde incelediği ve medyanın toplumsal kontroldeki rolünü tartıştığı bir kitaptır. Medyanın politik ve ekonomik güçlerle nasıl ilişkilendiğini inceler."
+      ]
+    },
+    {
+      "tag": "The Shock Doctrine",
+      "patterns": ["the shock doctrine hakkında bilgi", "the shock doctrine nedir", "the shock doctrine konusu", "the shock doctrine özeti"],
+      "responses": [
+        "'The Shock Doctrine', Naomi Klein tarafından yazılan bir kitaptır. Kitap, serbest piyasa politikalarının uygulanmasında krizlerin nasıl kullanıldığını inceler.",
+        "'The Shock Doctrine', Klein'ın politik ve ekonomik sistemlerin kriz anlarında nasıl şekillendiğini ve güç kazandığını eleştiren bir eseridir. Serbest piyasa ekonomisinin etkilerini ve kriz yönetiminin politik sonuçlarını inceler."
+      ]
+    },
+    {
+      "tag": "Bowling Alone",
+      "patterns": ["bowling alone hakkında bilgi", "bowling alone nedir", "bowling alone konusu", "bowling alone özeti"],
+      "responses": [
+        "'Bowling Alone', Robert D. Putnam tarafından yazılan bir kitaptır. Kitap, toplumsal sermayenin azalması ve bireyler arası bağların zayıflaması üzerine bir analiz sunar.",
+        "'Bowling Alone', Putnam'ın modern toplumda sosyal etkileşimin azaldığına dair bir tezi savunduğu bir çalışmadır. Teknolojinin ve bireyselleşmenin toplumsal ilişkilere etkilerini inceler."
+      ]
+    },
+    {
+      "tag": "Discipline and Punish",
+      "patterns": ["discipline and punish hakkında bilgi", "discipline and punish nedir", "discipline and punish konusu", "discipline and punish özeti"],
+      "responses": [
+        "'Discipline and Punish', Michel Foucault tarafından yazılan bir kitaptır. Kitap, ceza sistemlerinin tarihini ve modern toplumdaki disiplin mekanizmalarını inceler.",
+        "'Discipline and Punish', Foucault'ın ceza sistemlerinin evrimini ve modern toplumdaki disiplin mekanizmalarını analiz ettiği bir eseridir. İnsanların kontrol ve gözetim altında tutulmasıyla ilgili tarihsel ve sosyal bir perspektif sunar."
+      ]
+    },
+    {
+      "tag": "The Road to Serfdom",
+      "patterns": ["the road to serfdom hakkında bilgi", "the road to serfdom nedir", "the road to serfdom konusu", "the road to serfdom özeti"],
+      "responses": [
+        "'The Road to Serfdom', Friedrich Hayek tarafından yazılan bir kitaptır. Kitap, toplu yönetimin ekonomi üzerindeki etkilerini inceler ve serbest piyasanın önemini vurgular.",
+        "'The Road to Serfdom', Hayek'ın toplu yönetimin ekonomik planlamaya olan bağımlılığının toplumsal özgürlüğe tehdit oluşturduğunu savunduğu bir eseridir. Serbest piyasanın ve bireysel özgürlüğün önemini vurgular."
+      ]
+    },
+    {
+      "tag": "Between the World and Me",
+      "patterns": ["between the world and me hakkında bilgi", "between the world and me nedir", "between the world and me konusu", "between the world and me özeti"],
+      "responses": [
+        "'Between the World and Me', Ta-Nehisi Coates tarafından yazılan bir mektup tarzında kitaptır. Yazarın oğluna hitaben yazdığı eser, ırk ve ırksal adalet üzerine düşünceler içerir.",
+        "'Between the World and Me', Coates'ın Amerikan toplumunun ırksal gerçeklikleri ve siyah deneyimleri üzerine düşüncelerini içeren kişisel bir mektubudur. Irk, kimlik ve adalet kavramlarını inceler."
+      ]
+    }
+ 
+  ] 
+}

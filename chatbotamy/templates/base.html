@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    <p style="display:none;">Total:<span id="countMsg">0</span></p>
+    <p style="display:none;">EpostaId:<span id="epostaId">0</span></p>
+    <p style="display:none;">BirimAdı:<span id="birimAdı">0</span></p>
+    <div class="popUpCorner" id="loginDivUpper" style="display:none;">  
+    <div class="popUp" id="loginDiv" style="display:none;">
+        <form action="" id="loginForm">
+          <h4 class="chatbox__heading--header">Lütfen Giriş Yapınız</h4>
+          <input type="text" id="eposta_form" class="form-control" placeholder="E-posta adresinizi giriniz">
+          <input type="text" id="birim_form" class="form-control" list="birimler" placeholder="Sevdiğiniz Kitap Kategorisi">
+          <datalist id="birimler">
+            <option value="Roman">
+            <option value="Klasik Edebiyat">
+            <option value="Bilimkurgu">
+            <option value="Korku">
+            <option value="Polisiye ve Gizem">
+            <option value="Fantastik">
+            <option value="Macera">
+            <option value="Romantik">
+            <option value="Tarihi Roman">
+            <option value="Otobiyografi">
+            <option value="Biyografi">
+            <option value="Eğitim">
+            <option value="Bilim ve Doğa">
+            <option value="Felsefe">
+            <option value="Din ve Mitoloji">
+            <option value="Şiir">
+            <option value="Sanat ve Müzik">
+            <option value="Sağlık ve Fitness">
+            <option value="İş ve Kariyer">
+            <option value="Çoçuk Kitapları">
+            <option value="Genç Yetişkin">
+            <option value="Rehber Kitapları">
+            <option value="Referans Kitapları">
+            <option value="Deneme">
+            <option value="Politika ve Toplum">
+          </datalist>
+
+          <button type="submit" class="chatbox__send--footer1 send__button1">Start Chatbot</button>
+        </form>
+      </div>
+    </div>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAW7SURBVHic7ZprbFRVEMd/XdpibIEWKzXFGkULkWKKTRExPlqxUWPUxAdoqjHGF0GJJOoHBZ/RRIhPCBqiaOqLREUQiYlVk6JRC6EfNIGo9UlcqSUSCtpK6cMPs5c999xz957dvbu1eP/JJJs7M2dmzt0zZ87cAxEiRIgQIUKE/ysKRsFmOTALOAYoA4qAXmA3EAf2jYJPOcUk4FbgbeBHYCSA4kArcCMwZRT8DQ3nA+uBfoKD9qNDwOvAmXn2PStMBzaRedB+9DEwI49xpI1iYAUwgDmAzgR/ATANyQVODioDaoHLgaeAr4Fhwxj9wP1AYT4CSgcnATvwOrwfCbo2gzFPBVYBBw3jdgDHZ+11SKhDEpfq4GFgDVARwvhlwHPAkGbje+CUbAfPdhucBbQDxynPvgUWAt/46JwANACnAccmnvUBXci/6A8fvXnAOuB05dke4CJgV/quZ4+pwO+438oGoNQgeyKwHNiO902qNARsA5YlxtdRCmzRdLqQfJJXFAFfao68BozT5CYDTyJvOJMtcC3eWmAc8IYm+yEQCzG+QDyiObDZ4EATsJf0A9epB6kpVBQBH2hyD4QXXmrMxL3V7QQmaDJ3IokwrBpgAFik2ZgE/KDI/IV52YSO9xWjg8BZGv9mwgtcp9s1W3Nx55TW0KL0Qb3m0GqNfx6ydnM1AQNAo2ZzrcIfQnamnKFVMdaHbGkOJgDdBqfDpjhQotitxH3eeDbUiBWUAH8rhtZo/EfTCCJbelCz/ZLC60HK8tBQDDQDT2hOzFFkpmAuWXNFvbirzLkafxkwm2ShlTEW4y12RpDsq+K+PAbv0FLFfgHwq0HmILASGJ9u4DGksPEz/rIm3zEKE/CF5sOrKWTb052ExwOM36LIlhLunm9LA7iT4R0B8s/bBl+D/5neoUZFfo6PzCqgGtkdbkB6fQ7vEHAPso4rkCWk2twHtCR0q5Ht1mSjXvGjKcDnw0izJhArAwYaQU5yDq4x8N81jLtA4T9s4D+m8K828N8z2LlK4ddY+L0iRdxH0GUxUIMib6r8rjOMO55kkWRqkJxB8t9h2sauN9i5SeE3WPj9nT6ofoCZjHRigqD+lfoM/BLDs/EkW1kmvnOMLsScsEzH7CHlt02/sAZpsByBPgHTsGuSqBPQbeAvQk5sKu5S7C0x6DjPYshhSkUR3sMQSD3goMboqRsFwMmpBC7ELgOvV3Rm+Mh0IJ2hZuAFvE3ODcAVCdqo8YaQSrM5McY2Hxtqd+gtS98bU03AuZaDdCo6hbgzfL7oAO7ucKel3jw1YH0J7E01Owqmk1wqg8BHlnphYmvCNglfbJYAwJ+pmEW4DzypqErRa7HUCZNaFPtTLXX6sDgofWY5WJOiUwz8lMfgf8a9U1xpqdeuB2tqJJqKGBPUnWAAOS3mC8uResHB3ZZ679gIlSMJJmg2n9H0CvHP1mHSdtwvTu9S+VEvabTPbY63mwx61UhDIlfBdydsOChAkqGN7r22wYO8zbaAATf76OYqIfajbWHAbZa6bWTwQXUi3q8wDv2DHG5MWJqD4ONI10dFLfK3DtLdgrTQjUg1KwdIVmoLkc9bPcDnSDKJ++idnWLMTLAVOQjtUZ5VIoFNVJ4tQZbEBcgyiQNvIlXmcMg+pcRuwnnru4Br8Z5NqpD7A6rsi7kMKB1U4g1kI1KzXwK8grl351AX8DRSY5i26JnAL5rOJ4TcBc4GVSS/1OxA/o4mlCNd2/nI5+3ZpN6iYsher1epHbiXwX8ClwGXEt7X2vl4v0Q7b97UIzgqUIF0mr7CG/gwUoSFck9oNC5K1uG93xNDGhW1yJW4c/DeNQDJH4uR+wBjErZNC532Aw9hbqWNGdSRfuA7kcIq71dgcoGLsQ98Ne5211EBm7a1Q/U+Y4xpxIBPCQ6+jTxeeMr3LlCILAW/uzy/IRMw6MOPECFChAgRIkQIDf8CR+xkCEi4Ec8AAAAASUVORK5CYII=" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Asistan</h4>
+                    <p class="chatbox__description--header">Merhaba, Ben asistan Amy özel olarak tasarlanmış kitap öneri sistemi için eğitilmiş bir chatbotum.</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input id="placeholder2change" type="text" placeholder="Lütfen Mesajinizi Giriniz">
+                <button class="chatbox__send--footer send__button">Gönder</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
